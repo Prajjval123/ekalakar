@@ -1,0 +1,120 @@
+.partner_contact_form{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.patron_number_verify_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.verify_input_text_container{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.verify_input{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-radius: 1px;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.verfiyCode_select{
+
+    background-color: transparent;
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    border: 1px solid rgb(0,0,0,0.5);
+    width: 20%;
+    height: 100%;
+    border: none;
+     border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.verify_number_line{
+    height: 80%;
+    margin: auto 0;
+    width: 1px;
+    color: black;
+    background-color: black;
+}
+.verify_number_input{
+width: 90%;
+padding-left: 5px;
+ border: none;
+ outline: none;
+}
+
+.verify_input_para{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: center;
+    
+}
+.verify_text{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    color: #AD2F3B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.verify_email{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+@media (max-width:1300px) {
+    .patron_number_verify_wrapper{
+        gap: 20px;
+    }
+    .partner_contact_form{
+         width: 100%;
+         gap: 20px;
+    }
+}
+
+@media (max-width:1035px) {
+    .partner_contact_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .verify_number_input{
+        width: 100%;
+    }
+
+
+    .patron_number_verify_wrapper{
+        display: flex;
+        gap: 50px;
+    }
+}
+
+@media (max-width:550px) {
+    .patron_number_verify_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .verfiyCode_select{
+        width: 30%;
+    }
+}

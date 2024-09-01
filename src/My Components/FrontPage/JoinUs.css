@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-plus-jakarta-sans: 'Plus Jakarta Sans';
+  --font-inter: Inter;
+  --font-inherit: inherit;
+  --font-sansita-swashed: 'Sansita Swashed';
+  --font-quattrocento: Quattrocento;
+
+  /* font sizes */
+  --font-size-mini-5: 14.5px;
+  --font-size-xl: 20px;
+  --font-size-mini: 15px;
+  --font-size-21xl: 40px;
+  --font-size-3xl: 22px;
+  --font-size-9xl: 28px;
+  --font-size-3xs: 10px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-lgi: 19px;
+  --font-size-smi: 13px;
+  --font-size-base-9: 16.9px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-brown-100: #ad2f3b;
+  --color-brown-200: #a7313c;
+  --color-brown-300: rgba(164, 28, 52, 0.9);
+  --color-moccasin: #fbdfaf;
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-goldenrod: #edab41;
+  --color-darkslategray: #4b4b4b;
+
+  /* Gaps */
+  --gap-12xl: 31px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-9xl: 28px;
+  --br-81xl: 100px;
+  --br-29xl: 48px;
+  --br-60xl: 79px;
+  --br-mini: 15px;
+  --br-31xl: 50px;
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+}
+/* 
+.foot-1-icon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 465px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.connect-with-us,
+.foot-1-icon {
+  align-self: stretch;
+  position: relative;
+}
+.JoinUs_frame-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebookcolor,
+.whatsappcolor {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  height: 43px;
+}
+.whatsappcolor {
+  height: 41.77px;
+}
+.facebookcolor-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 29px;
+}
+.connect-with-us-parent,
+.foot-1-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connect-with-us-parent {
+  align-self: stretch;
+  gap: 17px;
+}
+.foot-1-parent {
+  width: 412px;
+  gap: 21px;
+}
+.full-name {
+  position: relative;
+  line-height: 24.11px;
+  font-weight: 500;
+}
+.JoinUs_frame-child {
+  border: 1px solid var(--color-white);
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 40px;
+}
+.full-name-parent {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.JoinUs_frame-item {
+  border: 1px solid var(--color-white);
+  background-color: transparent;
+  position: relative;
+  box-sizing: border-box;
+  width: 245px;
+  height: 40px;
+}
+.location-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.JoinUs_frame-child1 {
+  border: 1px solid var(--color-white);
+  background-color: transparent;
+  position: relative;
+  box-sizing: border-box;
+  width: 521px;
+  height: 113px;
+}
+.how-do-you-want-to-associate-w-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.paper-clip-6-xxl-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 29px;
+  height: 29px;
+  background-image: url(Images/JoinUs/paperclip.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.attachment-parent {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 53px;
+}
+.profilesocial-media-link-parent {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.JoinUs_frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.msg-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 125px;
+  height: 40px;
+  background-image: url('Images/JoinUs/Msg\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.JoinUs_frame-parent {
+  display: flex;
+  align-items: center;
+}
+.JoinUs_frame-parent {
+  width: 521px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 28px;
+  text-align: left;
+  font-size: 14.46px;
+}
+.footer {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  flex-direction: row;
+  padding: 25px 13px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+span {
+  color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  .JoinUs_frame-group {
+    flex-direction: column;
+    gap: var(--gap-12xl);
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .JoinUs_frame-group {
+    flex-direction: column;
+    gap: var(--gap-12xl);
+    align-items: center;
+    justify-content: flex-start;
+  }
+} */
+
+/* Update the background and text color */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Add some space between social media icons */
+.connect-with-us-parent {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.foot-1-icon {
+  margin-top: 50px;
+  height: 62vh;
+  width: 32.55vw;
+}
+
+.connect-with-us {
+  font-size: 18px;
+}
+
+.facebookcolor img,
+.whatsappcolor img {
+  margin-top: 15px;
+  margin-right: 12px;
+  padding: 5px;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* Default styles for non-responsive view */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.row .full-name {
+  text-align: left;
+}
+/* Responsive styles for screens smaller than 768px (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .foot-1-icon {
+    margin-top: 50px;
+    height: 62vh;
+    width: 62.55vw;
+  }
+}
+
+/* Responsive styles for screens smaller than 576px (e.g., mobile devices) */
+@media screen and (max-width: 576px) {
+  .col-lg-6 {
+    width: 90%;
+  }
+
+  .JoinUs_frame-group{
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vh;
+  }
+
+  .foot-1-parent,
+  .JoinUs_frame-parent {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .foot-1-icon {
+    margin-top: 50px;
+    height: 62vh;
+    width: 92.55vw;
+  }
+  .facebookcolor img,
+  .whatsappcolor img {
+    width: 35px !important;
+    height: 36px !important;
+  }
+}
+
+.JoinUs_frame-item {
+  border: none;
+  border-bottom: 2px solid white; /* Add a white underline */
+  background-color: transparent; /* Remove the default background color */
+  color: white;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 15px;
+  transition: border-bottom-color 0.2s ease-in-out;
+  border-radius: 0; /* Remove the border radius to get a straight line */
+}
+
+.msg-1 {
+  background-color: #ad2f3b;
+
+  width: 178px;
+  height: 45px;
+  border-radius: 155px;
+  margin-top: 20px;
+}
+
+.footer button:hover {
+  border: 0px solid wheat !important;
+  background-color: #fbdfaf;
+  color: white;
+}
+
+.JoinUs_frame-item:focus {
+  outline: none;
+  border-bottom-color: #ad2f3b; /* Change the underline color when focused */
+}
+
+.attachment-parent {
+  margin-bottom: 20px;
+}
+
+label {
+  /* display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: black; */
+  text-align: left;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  border: 2px solid white;
+  background-color: #000;
+  border-radius: 5px;
+  appearance: none; /* Hide the default dropdown arrow on modern browsers */
+  -webkit-appearance: menulist; /* Hide the default dropdown arrow on Safari */
+}
+
+/* Add a white arrow icon using Unicode character ▼ */
+select::after {
+  content: '▼';
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+  font-size: 14px;
+}
+
+/* Style the arrow icon when the select element is open */
+select:focus::after {
+  content: '▲';
+}
+
+@media (max-width:426px){
+  .foot-1-icon{
+    height: 350px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width:376px){
+  .foot-1-icon{
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (max-width:321px){
+  .foot-1-icon{
+    height: 250px;
+    width: 100%;
+  }
+}

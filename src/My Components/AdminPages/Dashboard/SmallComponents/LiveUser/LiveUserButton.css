@@ -1,0 +1,28 @@
+.live-user-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 250px;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.live-user-btn p,h6{
+    padding: 0;
+    margin: 0;
+    font-size: var(--fs-15);
+    font-weight: (--fw-400);
+}
+
+.live-user-btn img{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+

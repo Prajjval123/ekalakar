@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-inherit: inherit;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-sansita-swashed: "Sansita Swashed";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 50px;
+  --font-size-base-9: 16.9px;
+  --font-size-mini-5: 14.5px;
+  --font-size-lgi: 19px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-brown: #ad2f3b;
+  --color-white: #fff;
+  --color-moccasin: #fbdfaf;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-70xl: 89px;
+  --gap-28xl: 47px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-xl: 20px;
+
+  /* border radiuses */
+  --br-9xl: 28px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+}
+
+
+.aboutUs,
+.ekalakaarekIsBuilding {
+  align-self: center;
+  position: relative;
+  font-size:var(--font-size-21xl);
+}
+.ekalakaarekIsBuilding {
+  /* font-size: var(--font-size-lg); */
+  font-size: 17px;
+  font-family: var(--font-poppins);
+  text-align: justify;
+}
+.whatWeDo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 247px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.makeTalentMeet {
+  margin-bottom: 0;
+}
+.makeTalentMeetOpportunityT {
+  margin: 0;
+  padding-left: var(--padding-5xl);
+}
+.makeTalentMeetContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.ekalakaarekIsBuildingTheParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.pg22 {
+  position: relative;
+  margin-top: -3vh;
+  width: 42vw;
+  height: 85vh;
+  object-fit: contain;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.aboutUsParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.aboutUsParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+.frameParent {
+  position: relative;
+  background-color: var(--color-brown);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 32px 42px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1200px) {
+  .ekalakaarekIsBuildingTheParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameGroup {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .ekalakaarekIsBuildingTheParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameGroup {
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .aboutUsParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:768px) {
+  .aboutUs{
+    font-size: 40px;
+  }
+  .ekalakaarekIsBuildingTheParent, .ekalakaarekIsBuilding{
+    font-size: 14px !important;
+  }
+  .pg22{
+    margin: 0px !important;
+    width: 100%;
+    height: auto;
+  }
+  
+}

@@ -1,0 +1,96 @@
+.review-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 2vw;
+    width: 46vw;
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.12);
+}
+
+.star-summary-userName {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.starts {
+    display: flex;
+    gap: 8px;
+}
+
+.every-single-start {
+    height: 20px;
+    aspect-ratio: 1/1;
+}
+
+.user-review-summary {
+    color: #384250;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.review-userName {
+    color: #111927;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review-giver-user-image {
+    height: 10vw;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .review-box {
+        gap: 20px;
+    }
+
+    .star-summary-userName {
+        gap: 10px;
+    }
+
+    .user-review-summary {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .review-userName {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .review-box {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .user-review-summary {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .review-giver-user-image {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .review-giver-user-image {
+        height: 60px;
+    }
+
+    .user-review-summary {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}

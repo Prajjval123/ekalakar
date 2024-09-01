@@ -1,0 +1,47 @@
+
+.section-division-admin-viewPortfolio{
+    width: 100%;
+    max-width: 1330px;
+    flex-grow: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    gap: 40px;
+    padding: 20px;
+}
+.label-port{
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+} 
+.label-port textarea{
+    width: 100%;
+    resize: none;
+    flex-grow: 1;
+    min-height: 100px;
+    color: var(--grey-color);
+    border:var(--input-border);
+    padding: 10px;
+    border-radius: var(--br-sm);
+    font-size: 18px;
+    font-weight: 400;
+}
+.label-port textarea::placeholder {
+    color: var(--grey-color);
+}
+
+.label-port-file{
+    width: 100%;
+    max-width: 500px;
+    
+}
+.label-port-file p{
+    flex-grow: 1;
+}
+.label-port-file input{
+    display: flex;
+    max-width: 120px;
+    align-self: flex-end;
+    justify-self: end;
+}

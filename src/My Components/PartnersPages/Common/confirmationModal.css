@@ -1,0 +1,162 @@
+.confirmation-modal_wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0 , 0.5);
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .confirmation_modal{
+        width: 450px;
+        height: 500px;
+        background-color: white;
+        animation: scale-up 0.5s;
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+ align-items: center;
+ padding-left: 5px;
+ padding-right: 5px;
+ border-radius: 10px;
+  }
+
+  .crossImg_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+
+  }
+  .confirm_crossImg{
+    text-align: right;
+    cursor: pointer;
+  }
+
+  .confirmation_ekalakaar{
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  .confirm_heading{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Poppins;
+    text-align: center;
+  }
+
+  .confirm_subHeading{
+    font-weight: 400;
+    color: black;
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: Poppins;
+    text-align: center;
+  }
+ 
+  .confirm_verify_input{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    border-radius: 2px;
+    flex-direction: row;
+    /* gap: 5px; */
+    border: 1px solid black;
+    opacity: 0.7;
+  }
+
+  .confirm_nextButton{
+    background-color: #AD2F3B;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .confirm_downPara{
+    font-family: Poppins;
+    font-size: 16px;
+  }
+
+  .confirmModal_email{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Poppins;
+    padding-left: 10px;
+
+}
+
+.partner_upload_file{
+  width: 170px;
+  height: 45px;
+  padding: 10px;
+  border:1px solid black;
+  color: black;
+  background-color: rgb(0, 0, 0 , 0.1);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  
+}
+  
+.confirmation_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.confirm_countryCode{
+  width: 80px;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  border: none;
+}
+
+  @keyframes scale-up {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width:470px) {
+     .confirmation_modal{
+      width: 95%;
+      height: fit-content;
+      gap: 15px;
+      padding-bottom: 10px;
+      padding-top: 5px;
+     }
+
+     .confirm_verify_input{
+      width: 90%;
+     }
+
+     .confirmModal_email{
+      width: 90%;
+     }
+  }
+  
+
+  

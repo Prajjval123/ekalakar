@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.Services_Page {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #ad2f3b;
+  width: 100%;
+  padding: 2vh 0px;
+  min-height: 40vh;
+}
+
+.Services_Page .carousel-control-prev-icon,
+.Services_Page .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+.Services_Page .carousel-control-prev{
+  width: 5vw;
+}
+.Services_Page .carousel-control-next{
+  width: 5vw;
+ 
+}
+
+.Services_Page .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+
+.Services_heading1 {
+  width: 100%;
+  padding: 2vh 0px;
+}
+
+.Services_Page h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+.Services_Main_image{
+  width: 55vw;
+  height: 80vh;
+}
+
+.Services_Carousel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly !important;
+  align-items: center;
+  margin-top: 4vh;
+  flex-direction: row;
+}
+
+.Services_Carousel_Items {
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+.Services_P {
+  width: 532px;
+  height: 394px;
+  margin-left: 4vh;
+  /*width: 34.63vw;
+  height: 55.18vh;*/
+  color: #fff;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 25.56px */
+  /*overflow: scroll;*/
+}
+
+.Services_Carousel_Item {
+  width: auto;
+  height: auto;
+  /*width: 37vw;
+  height: 62.4vh;*/
+  border-radius: 18px;
+  margin-top: -10vh;
+}
+
+.Services_P span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 1030px) {
+  .Services_Main_image{
+    width: 80vw;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .Services_Page h1 {
+    height: auto;
+    
+  }
+  
+  .carousel-item-image {
+    float: none;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .carousel-item-caption {
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1031px) {
+  .Services_Carousel_Item{
+    width: 450px !important;
+    height: 350px !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .Services_Carousel {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Services_Carousel_Items {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+  }
+
+  .Services_Carousel_Item {
+    width: 60vw;
+    height: 40vh;
+  }
+
+  .Services_P {
+    height: auto;
+    width: 90%;
+    overflow: visible;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .Services_Carousel_Items button {
+    float: inherit;
+  }
+}
+
+@media (max-width:426px){
+  .Services_Carousel_Item {
+    width: 60vw;
+    height: 35vh;
+  }
+}
+
+@media (max-width:321px){
+  .Services_Carousel_Item {
+    width: 75%;
+    height: 35vh;
+  }
+}

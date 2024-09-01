@@ -1,0 +1,259 @@
+.usercontainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+   margin-top: 40px;
+  margin-bottom: 40px !important; 
+
+  width: 80%;
+  height: auto !important;
+ padding: 20px;
+  background: rgba(255, 240, 241, 0.7);
+  border-radius: 31px;
+ 
+}
+.row-container {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+}
+.filter-dropdown input {
+  background: transparent;
+  width: 336px;
+  height: 35px;
+  top: 330px;
+  left: 919px;
+  
+  font-size: 20px;
+ border: none;
+
+}
+.filterdrop{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.searchbar{
+  display: flex;
+  gap: 8px;
+  color: #818181;
+  border-radius: 5px;
+  background: transparent;
+ border: 1px solid #5B5959;
+  align-items: center;
+ 
+}
+.searchicon{
+  margin-left: 3px;
+  font-size: 25px;
+  color: #5B5959;
+}
+.right-content {
+  display: flex;
+  flex-direction: row;
+}
+.d-inline-block {
+  margin-top: 10px;
+}
+#icon-info {
+  margin-top: 10em;
+}
+
+#search-bar {
+  width: 30%;
+}
+#query {
+  border: none;
+}
+.filter-dropdown {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #000;
+  gap: 10px;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 18px;
+}
+.artistfilter {
+    width: 203px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #818181;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #4f4f4f;
+    padding: 0;
+    text-align: center;
+}
+ .usercontainer table {
+  border: none;
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+.block,.approve,.verify {
+  color: #00ff38;
+  cursor: pointer;
+}
+
+ th {
+  padding: 8px;
+  width: auto;
+  text-align: left;
+}
+ .usercontainer td {
+  border: none ;
+  padding: 8px;
+  width: auto;
+  text-align: left;
+  color: #444;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.viewicon{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.viewicon:hover{
+  cursor: pointer;
+}
+button {
+  margin-right: 5px;
+}
+
+.plus{
+  color: #AD2F3B;
+  cursor: pointer;
+  font-size: 30px;
+}
+.edit{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.view{
+  font-size: 20px;
+  color: orange;
+}
+.delete{
+  font-size: 20px;
+  color: red;
+}
+.opportunitytd1,.opportunitytd7{
+  width: 15%;
+}
+.jobsicons{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination__link {
+  cursor: pointer;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.Opp_App_button{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    width: 40px;
+    height: 25px;
+    border: 2px solid rgb(182, 182, 182);
+}
+.Opp_App_button:hover{
+  border: none;
+  background-color: #ddd;
+  scale: 1.2;
+}
+
+
+@media screen and (max-width: 600px) {
+  th, td {
+     overflow: scroll;
+  }
+  .viewicon{
+    width: 100%;
+  }
+  .usercontainer{
+    overflow: scroll;
+  }
+  /* .row-container{
+    width: 80%;
+  } */
+  
+  /* .usercontainer table{
+    margin-left: 20px;
+    margin-right: 20px;
+  } */
+}
+
+.table_body .viewicon svg {
+  margin-right: 8px; 
+  cursor: pointer;
+  position: relative;
+}
+
+.table_body .viewicon svg::before {
+  content: attr(title);
+  display: none;
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.table_body .viewicon svg:hover::before {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1250px) {
+  .usercontainer {
+    width: 90%; 
+    overflow-x: scroll;
+  }
+
+  /* .row-container {
+    width: 90%; 
+  } */
+/* 
+  .filter-dropdown input {
+    width: 80%; 
+  } */
+
+  .artistfilter {
+    width: 150px; 
+
+  .usercontainer table {
+    width: 100%; 
+  }
+
+}
+}

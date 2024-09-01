@@ -1,0 +1,296 @@
+.portfolio_card{
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+width: 950px;
+height: 480px;
+display: flex;
+flex-direction: row;
+/* background-color: aqua; */
+/* padding-left: 30px; */
+position: relative;
+border-radius: 10px;
+justify-content: space-between;
+
+
+}
+.card_userdetails{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+     padding-top: 32px;
+     padding-left: 10px;
+    gap: 30px;
+    /* background-color: antiquewhite; */
+}
+
+.rectange_image{
+    position: absolute;
+    transform: translateX(300px);
+}
+
+.card_details_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+
+.card_single_detail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.blackBackground{
+    background-color: black;
+}
+
+.redBackground{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #AD2F3B;
+}
+
+.card_detail_text{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    width: 80%;
+
+}
+
+.card_ekalakaar_image{
+    width: 97px;
+    height: 97px;
+
+}
+
+.card_userName_details{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    text-align: right;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_userName_details img{
+    width: 180px;
+    height: 180x;
+    border-radius: 50%;
+ 
+}
+.card_userProfession{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+
+.portfolio_ekalakaar_image{
+    width: 90px;
+    height: 90px;
+}
+.card_userName{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 32px;
+    
+}
+
+.card_user_socialMedia_details{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-content: center;
+}
+.card_single_socialDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.card_socialMedia_image{
+    margin-bottom: 15px;
+     width: 20px;
+     height: 20px;
+
+}
+
+.card_socialMedia_id{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+.user_photo{
+    width: 189px;
+    height: 189px;
+ border-radius: 50%;
+ background-color: black;
+ color: white;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ font-family: Poppins;
+ font-weight: 600;
+ font-size: 24px;
+
+}
+
+@media (max-width:960px) {
+
+    .portfolio_card{
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .card_userName_details{
+        width: 50%;
+
+    }
+
+    .card_single_detail{
+ display: flex;
+  gap: 10px;
+    }
+.rectange_image{
+    transform: translateX(240px);
+}
+
+.card_userdetails{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+    .card_detail_text{
+        font-size:16px ;
+    }
+
+    .card_details_image{
+         width: 30px;
+         height: 30px;
+    }
+
+    .portfolio_card{
+        width: 95%;
+    }
+
+    .user_profile{
+      width: 150px;
+      height: 150px;   
+    } 
+
+    .card_userName_details h1{
+      font-size: 20px;   
+    } 
+
+    .card_details_wrapper{
+         gap: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    .rectange_image{
+        display: none;
+    }
+    .card_userdetails{
+        padding-top: 0px;
+    }
+
+    .card_userProfession{
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:600px) {
+    .card_detail_text{
+        font-size: 14px;
+    }
+
+    .card_userName_details h1{
+        font-size: 14px;
+       
+    }
+    .card_userName_details{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+     .card_userProfession{
+        margin-top: -4px;
+     }
+}
+
+@media (max-width:500px) {
+    .portfolio_card{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .portfolio_ekalakaar_image{
+        display: none;
+    }
+
+    .card_userdetails{
+        width: 100%;
+    }
+
+    .card_single_detail{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    .card_detail_text{
+        text-align: left;
+    }
+.card_details_wrapper{
+    display: flex;
+    
+}
+
+.card_user_socialMedia_details{
+     display: flex;
+     flex-direction: row;
+     /* gap: 10px; */
+     align-content: center;
+     justify-content: space-between;
+     padding-right: 10px;
+}
+}
+
+@media (max-width:450px) {
+    .card_user_socialMedia_details{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .user_photo{
+        font-size: 20px;
+    }
+}
+

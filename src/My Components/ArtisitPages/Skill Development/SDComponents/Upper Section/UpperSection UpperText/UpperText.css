@@ -1,0 +1,110 @@
+#texts{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+}
+
+#heading {
+    color: #FFF;
+    font-family: Sansita Swashed;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#heading-under-text {
+    color: #FFF;
+    width: 655px;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#upper-section-button {
+    width: 230px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--main-font-family);
+    border: none;
+    border-radius: 15px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1150px) {
+    #heading {
+        font-size: 55px;
+    }
+    #heading-under-text {
+        width: 575px;
+        font-size: 24px;
+    }
+    #upper-section-button {
+        width: 190px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #heading {
+        font-size: 43px;
+    }
+    #heading-under-text {
+        width: 530px;
+        font-size: 22px;
+    }
+    #upper-section-button {
+        width: 170px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width: 775px) {
+    #heading {
+        font-size: 35px;
+    }
+    #heading-under-text {
+        width: 380px;
+        font-size: 18px;
+    }
+    #upper-section-button {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        border-radius:5px;
+    }
+}
+@media screen and (max-width: 625px) {
+    #heading {
+        font-size: 25px;
+    }
+    #heading-under-text {
+        width: 300px;
+        font-size: 14px;
+    }
+    #upper-section-button {
+        width: 125px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 430px) {
+    #heading {
+        font-size: 16px;
+    }
+    #heading-under-text {
+        width: 210px;
+        font-size: 10px;
+    }
+    #upper-section-button {
+        width: 115px;
+        height: 25px;
+        border-radius: 3px;
+    }
+}

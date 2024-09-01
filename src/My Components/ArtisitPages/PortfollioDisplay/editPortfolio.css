@@ -1,0 +1,28 @@
+.edit_Portfolio_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+.portfolio_actual_navbar{
+    width: 100%;
+    height: 75px;
+}
+
+.edit_card_text{
+font-weight: 600;
+font-family: Poppins;
+font-size: 48px;
+
+}
+
+@media (max-width:450px) {
+     .edit_card_text{
+        font-size: 30px;
+     }
+}
+

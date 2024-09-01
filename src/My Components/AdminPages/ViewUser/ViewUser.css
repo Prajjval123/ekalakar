@@ -1,0 +1,59 @@
+/* .admin-menu-wrapper{
+    display: none;
+} */
+.admin-view-User-cont{
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.admin-view-User-cont h2{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-500);
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.admin-view-cont-tab{
+    width: 100%;
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: space-between;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+
+.admin-status-btn-user{
+    padding:10px 20px;
+    border-radius: var(--br-sm);
+    border: none;
+    background-color: transparent;
+    font-size: var(--fs-15);
+    font-weight: var(--fw-500);
+}
+.admin-status-btn-user.active-btnn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+@media (max-width:550px) {
+    .admin-status-btn-user{
+        padding:5px 10px;
+        border-radius: var(--br-sm);
+        font-size: var(--fs-12);
+        font-weight: var(--fw-400);
+    }
+    .admin-view-User-cont h2{
+        font-size: var(--fs-25);
+
+    }
+    .admin-view-cont-tab{
+
+        padding: 0 15px;
+    }
+}

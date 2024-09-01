@@ -1,0 +1,41 @@
+.iii{
+    padding: 15px;
+    gap: 15px;
+}
+.iii .portfolio_card{
+    gap: none;
+    justify-content: center ;
+    display: flex;
+    width: 100%;
+}
+
+.active-bbt{
+    background-color: #ffffff;
+    color: var(--primary-color);
+}
+.iii .card_userdetails{
+    max-width:300px ;
+}
+.iii .rectange_image{
+    display: none;
+}
+.root-content-connnt{
+    border-top: 1px solid #0000001A;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.root-content-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+
+}
+
+@media (max-width:1200px) {
+    .root-content-connnt{
+        grid-template-columns: auto;
+    }
+}

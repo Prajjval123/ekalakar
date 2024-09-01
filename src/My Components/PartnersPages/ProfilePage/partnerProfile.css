@@ -1,0 +1,186 @@
+.partner_profile_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Poppins;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+.partner_hero_section {
+  width: 100%;
+}
+.partner_dp_section {
+  width: 100%;
+  background-color: teal;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner_hero_bg {
+  width: 100%;
+}
+.partner_hero_dp {
+  position: absolute;
+  left: 45%;
+  bottom: -40%;
+  left: 44%;
+}
+.partner_name {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  left: 47%;
+  bottom: -60%;
+}
+.partnerHeroData {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 10%;
+  margin: 0 auto;
+  bottom: -100%;
+}
+@media (max-width: 1300px) {
+  .partner_hero_dp {
+    width: 180px;
+  }
+  .partnerHeroData {
+    bottom: -120%;
+    width: 70%;
+    left: 20%;
+  }
+
+  .partner_name {
+    bottom: -70%;
+  }
+}
+@media (max-width: 1100px) {
+  .partner_hero_dp {
+    width: 150px;
+  }
+
+  .partner_profile_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 850px) {
+  .partner_hero_dp {
+    width: 120px;
+  }
+
+  .partner_name {
+    left: 44%;
+    bottom: -80%;
+  }
+  .partnerHeroData {
+    bottom: -150%;
+    width: 90%;
+    left: 12%;
+  }
+}
+@media (max-width: 650px) {
+  .partner_hero_dp {
+    width: 100px;
+  }
+
+  .partner_name {
+    bottom: -85%;
+    left: 40%;
+  }
+
+  .partnerHeroData {
+    bottom: -170%;
+    left: 6%;
+    width: 100%;
+  }
+}
+@media (max-width: 530px) {
+  .partner_hero_dp {
+    width: 90px;
+    bottom: -50%;
+  }
+
+  .partner_name {
+    bottom: -100%;
+  }
+
+  .partnerHeroData {
+    bottom: -210%;
+    column-gap: 70px;
+    left: 10px;
+    row-gap: 1px;
+    padding-left: 0;
+    /* background-color: aqua; */
+  }
+}
+@media (max-width: 400px) {
+  .partner_hero_dp {
+    width: 75px;
+  }
+  .partner_name {
+    bottom: -120%;
+    left: 34%;
+  }
+
+  .partnerHeroData {
+    bottom: -280%;
+    left: 0;
+  }
+}
+
+.partnerdata {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: Poppins;
+}
+
+.partner_user_data {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  font-family: Poppins;
+}
+
+.service_textarea {
+  width: 90vw;
+  height: 200px;
+  resize: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.service_textarea::placeholder {
+  color: black;
+  font-size: 16px;
+  font-family: Poppins;
+  opacity: 70%;
+}
+
+.service_radio_label {
+  display: flex;
+  gap: 4px;
+}
+
+/* to remove the button from number type  */
+input[type="number"] {
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,1290 @@
+/* .portfolioDisplay_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+.portfolio_actual_navbar {
+  width: 100%;
+  height: 75px;
+}
+
+.card_button_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio_display_heading {
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 48px;
+}
+
+.portfolio_usersDetails {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.userName_review_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.portfolio_verify_userName {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.portfolio_userName {
+  font-weight: 600;
+  font-size: 48px;
+  font-family: Poppins;
+}
+
+.portfolio_verify_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #61c6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_star_review_container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.star_container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.all_stars {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.filledStar {
+  width: 29px;
+  height: 27px;
+  color: #ffd130;
+  cursor: pointer;
+}
+
+.emptyStar {
+  width: 29px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.No_review_text {
+  margin-top: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+.read_review_text {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins;
+  color: #ad2f3b;
+  cursor: pointer;
+}
+
+.about_me_text {
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 40px;
+  color: #ad2f3b;
+}
+
+.user_aboutMe_detail {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+.user_profession_details {
+  width: 547px;
+  height: 590px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 32px;
+}
+
+.single_userProfession_detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profession_title {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 70%;
+}
+
+.profession_info {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media (max-width: 400px) {
+  .card_button_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portfolio_verify_userName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  .portfolio_userName {
+    font-size: 32px;
+  }
+
+  .portfolio_verify_img {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .portfolio_verify_img img {
+    width: 20px;
+  }
+  .all_stars {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+  }
+  .No_review_text {
+    font-size: 16px;
+  }
+  .read_review_text {
+    font-size: 16px;
+  }
+
+  .about_me_text {
+    font-size: 28px;
+  }
+  .user_aboutMe_detail {
+    font-size: 18px;
+    font-family: Poppins;
+  }
+}
+
+@media (max-width: 800px) {
+  .portfolio_usersDetails {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 665px) {
+  .userName_review_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .user_star_review_container {
+    margin-top: -20px;
+  }
+  .all_stars {
+    font-size: 10px;
+  }
+
+  .filledStar {
+    width: 20px;
+  }
+  .emptyStar {
+    width: 20px;
+  }
+
+  .No_review_text {
+    font-size: 14px;
+  }
+
+  .read_review_text {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .portfolio_userName {
+    font-size: 24px;
+  }
+
+  .about_me_text {
+    font-size: 22px;
+  }
+  .user_aboutMe_detail {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .user_profession_details {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 430px) {
+  .profession_title {
+    font-size: 14px;
+  }
+  .profession_info {
+    font-size: 14px;
+  }
+
+  .portfolio_display_heading {
+    font-size: 30px;
+  }
+}
+
+.Portfolio_Info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 20px 0;
+}
+
+.field {
+  width: 30%;
+  margin-top: 10px;
+}
+.large {
+  width: 47%;
+}
+
+.field p {
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.photos {
+  margin: 30px 0;
+}
+
+.photos h1 {
+  margin-bottom: 15px;
+}
+
+.field h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 570px) {
+  .field {
+    width: 100%;
+    margin-top: 10px;
+  }
+} */
+
+.portfolioDisplay_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.portfolio_actual_navbar{
+    width: 100%;
+    height: 75px;
+}
+
+
+.card_button_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    width: 100%;
+}
+
+.portfolio_display_heading{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 48px;
+}
+
+.portfolio_usersDetails{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.userName_review_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.portfolio_verify_userName{
+    display: flex;
+   flex-direction: row;
+   gap: 20px; 
+   align-items: center;
+}
+
+.portfolio_userName{
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Poppins;
+}
+
+.portfolio_verify_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #61C6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_star_review_container{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.star_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.all_stars{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.filledStar{
+    width: 29px;
+    height: 27px;
+    color: #FFD130;
+    cursor: pointer;
+}
+
+.emptyStar{
+    width: 29px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.No_review_text{
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.read_review_text{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #AD2F3B;
+    cursor: pointer;
+}
+
+.about_me_text{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 40px;
+    color: #AD2F3B;
+}
+
+.user_aboutMe_detail{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.user_profession_details{
+    width: 547px;
+    height: 590px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.7);    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 32px;
+
+}
+
+.single_userProfession_detail{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.profession_title{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.profession_info{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+
+@media (max-width:400px) {
+    .card_button_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:1000px) {
+    
+    .portfolio_verify_userName{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .portfolio_userName{
+        font-size: 32px;
+
+    }
+
+    .portfolio_verify_img{
+         width: 30px;
+         height: 30px;
+         margin-top: -10px;
+         
+    }
+    .portfolio_verify_img img{
+        width: 20px;
+    }
+    .all_stars{
+         display: flex;
+         flex-direction: row;
+         gap: 3px;
+    }
+    .No_review_text{
+        font-size: 16px;
+    }
+    .read_review_text{
+        font-size: 16px;
+    }
+
+    .about_me_text{
+        font-size: 28px;
+    }
+    .user_aboutMe_detail{
+        font-size: 18px;
+        font-family: Poppins;
+    }
+}
+
+@media (max-width:800px) {
+    .portfolio_usersDetails{
+        width: 100%;
+    
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:665px) {
+    .userName_review_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+  align-items: flex-start;
+    }
+
+    .user_star_review_container{
+        margin-top: -20px;
+
+    }
+    .all_stars{
+        font-size: 10px;
+    }
+
+
+    .filledStar{
+width: 20px;
+    }
+    .emptyStar{
+ width: 20px;
+    }
+
+    .No_review_text{
+        font-size: 14px;
+    }
+
+.read_review_text{
+    font-size: 14px;
+    margin-top: -10px;
+}
+}
+
+@media (max-width:360px) {
+    .portfolio_userName{
+        font-size: 24px;
+    }
+
+    .about_me_text{
+        font-size: 22px;
+    }
+    .user_aboutMe_detail{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:580px) {
+    .user_profession_details{
+        width: 100%;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+   
+   
+}
+
+@media (max-width:430px) {
+    .profession_title{
+        font-size: 14px;
+       }
+       .profession_info{
+        font-size: 14px;
+       }
+
+       .portfolio_display_heading{
+        font-size: 30px;
+       }
+}
+
+
+.Portfolio_Info{
+    display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 20px  0 ;
+}
+
+.field{
+    width:30%;
+    margin-top: 10px;
+}
+.large{
+    width: 47%;
+}
+
+.field p{
+    padding: 20px;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+.photos{
+    margin: 30px 0;
+}
+
+.photos h1{
+    margin-bottom: 15px;
+}
+
+.field h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width:570px) {
+    .field{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+ 
+
+
+ 
+
+.calender_artist {
+
+    border-radius: 20px;
+    background-blend-mode: multiply;
+    background: #fd6f77 !important;
+    width: 500px !important;
+    box-shadow: -10px 10px 0px 0px #32435a73;
+  }
+  .view {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .artist_profile_name {
+    margin: 0;
+  }
+  .artist_profile_role {
+    font-size: 20px;
+    text-align: center;
+  }
+  .art_profile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .artist_art-ManageProfile_award {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 120px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    border-radius: 10px;
+    /* background: #ffd3d8; */
+  }
+  .profile_video {
+    width: 630px;
+    height: 250px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .video_heading {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+  }
+  .profile_instagram {
+    color: mediumvioletred;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .profile_facebook {
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .profile_Youtube {
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .profile_LinkedIn {
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .profile_twitter {
+    font-size: 35px;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .artist-top-division {
+    width: 80%;
+    margin: auto;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    color: #ad2f3b;
+  }
+  
+  .artist_circleprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+  }
+  
+  .artist_circleprofile img {
+    border-radius: 50%;
+    border: 1px solid;
+    height: 170px;
+    width: 170px;
+  }
+  .artist_art-ManageProfile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 500px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    border-radius: 10px;
+    background: #ffd3d8;
+  }
+  
+  .artist_art_Profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 390px;
+    height: 120px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    border-radius: 10px;
+    background: #ffd3d8;
+  }
+  
+  .artist_art_Profile h1 {
+    width: 85%;
+    margin: auto;
+    color: #ad2f3b;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .basic_profile h1 {
+    gap: 14px;
+    display: flex;
+    padding: 14px;
+    color: #ad2f3b;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .artist_art-ManageProfile h1 {
+    width: 85%;
+    margin: auto;
+    color: #ad2f3b;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .artist_art-ManageProfile_award h1 {
+    width: 85%;
+    margin: auto;
+    color: #ad2f3b;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .left-division {
+    flex: 1 1;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #ad2f3b;
+  }
+  
+  .left_artist,
+  .right_artist {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #ad2f3b;
+  }
+  
+  .major_events_container {
+    color: #818181;
+  }
+  .profile_heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    width: 160px;
+  }
+  .basic_profile-card {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+    
+  }
+  .performance_profile {
+    width: 630px;
+    height: auto;
+    padding: 10px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    border-radius: 10px;
+    background: #ffd3d8;
+  }
+  
+  .performance_profile h1 {
+    margin-left: 20px;
+    color: #ad2f3b;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .performance_heading {
+    margin-left: 20px;
+    font-weight: 500;
+    color: black;
+  }
+  .performance_para {
+    margin-left: 20px;
+    color: #000;
+  }
+  .right-division {
+    flex: 1;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: #ad2f3b;
+  }
+  .right-division-basic {
+    flex: 1;
+    padding: 20px;
+    
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: #ad2f3b;
+  }
+  .profilesection-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .profileparagraph-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #818181;
+    font-weight: 500;
+  }
+  
+  .profile-card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  .OtherDetails_card {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffd3d8;
+  }
+  
+  .major_events {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #818181;
+  }
+  .left_content_profile {
+    display: flex;
+    flex-direction: row;
+  }
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  .sub-container {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .profile-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  .left-container {
+    width: 50%;
+    padding: 20px;
+  }
+  .right-container {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .subdiv-left {
+    height: 50px;
+    background-color: green;
+  }
+  
+  .subdiv-right {
+    height: 50px;
+   
+  }
+  
+  .aboutartist {
+    width: 85%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #818181;
+  }
+  .aboutartist h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+  }
+  
+  .right_bottom_container {
+    background: #ffd3d8;
+    width: 60%;
+    height: 40vh;
+    border-radius: 10px;
+  }
+  
+  .paragraph-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: #818181;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .artist-ManageProfile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .artist-ManageProfile h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+  }
+  
+  .profile_social_icons {
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+  }
+  
+  .view_button {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #fff0f1;
+    width: fit-content;
+    font-family: Poppins;
+    font-size: 18px;
+    border-radius: 9px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .artist_profile_role {
+      text-align: center;
+    }
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .right-division-basic {
+      margin-left: -70px;
+      padding: 0px;
+    }
+    .left-container {
+      width: 100%;
+      padding: 0;
+    }
+    .right-container {
+      padding: 0;
+    }
+    .art_profile {
+      display: flex;
+      flex-direction: column;
+    }
+    .right-container,
+    .profile_video,
+    .aboutartist {
+      width: 100%;
+    }
+    .artist_art-ManageProfile_award {
+      width: 100%;
+    }
+    .artist_art_Profile {
+      width: 100%;
+      height: auto;
+    }
+    .artist_art_Profile h1,
+    .artist_art-ManageProfile_award h1 {
+      text-align: center;
+      width: 100%;
+    }
+    .profile_social_icons {
+      gap: 45px;
+      margin-top: 50px;
+    }
+    .artist-top-division {
+      display: flex;
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+    }
+    .performance_profile {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .performance_heading {
+      font-size: 16px;
+      margin-left: 20px;
+      font-weight: 500 !important;
+      color: black;
+    }
+    .major_events_container {
+      color: #818181;
+    }
+    .artist-ManageProfile {
+      margin: 20px 0px 20px;
+    }
+    .artist_art-ManageProfile {
+      width: 100%;
+    }
+    .left-division {
+      padding: 0px;
+      font-size: 16px;
+    }
+    .right-division {
+      padding: 0px;
+      font-size: 16px;
+    }
+    .profile_heading {
+      font-size: 15px;
+    }
+    .basic_profile h1 {
+      padding: 0px;
+    }
+    /* .basic_profile{
+    width: fit-content;
+  
+   }
+  } */
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .calender_artist {
+      width: 100% !important;
+    }
+  
+    .art_profile,
+    .profile_video,
+    .aboutartist,
+    .artist_art-ManageProfile_award,
+    .artist_art_Profile,
+    .profile_social_icons,
+    .artist-top-division,
+    .performance_profile,
+    .major_events_container,
+    .artist-ManageProfile {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .right-division-basic {
+      margin-left: -70px;
+    }
+  
+    .art_profile {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-container,
+    .right-container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .artist_circleprofile {
+      width: 100%;
+      height: auto;
+    }
+  
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  
+    .right-division-basic,
+    .right-division {
+      font-size: 16px;
+    }
+  
+    .profile_heading {
+      font-size: 15px;
+    }
+  }
+  }
+  

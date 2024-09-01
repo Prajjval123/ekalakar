@@ -1,0 +1,101 @@
+select{
+    background-color: white;
+    color: black;
+}
+.edit_portfolio_form_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+}
+
+.sinle_form_title{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.single_form_label{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    font-weight: 500;
+
+    /* background-color: aqua; */
+}
+
+.single_form_input{
+    width: 100%;
+    height: 60px;
+    font-family: Poppins;
+    border-radius: 10px;
+    border: 1px solid black;
+    /* margin-top: -10px; */
+    padding-left: 10px;
+
+    
+}
+.single_form_input::placeholder{
+    opacity: 70%;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.single_form_textarea{
+    resize: none;
+    border-radius: 10px;
+    margin-top: -10px;
+    padding-left: 10px;
+    font-family: Poppins;
+}
+
+.portfolio_row{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+}
+.portfolio_subrow{
+    display: flex;
+    gap: 5%;
+    width: 50%;
+}
+
+.edit_portfolio_updateButton{
+    margin: 0 auto;
+}
+
+.edit_portfolio_cancelButton{
+    margin: 0 auto;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Poppins;
+    background-color: white;
+    cursor: pointer;
+}
+.form_title{
+    color: #AD2F3B;
+    font-weight: 600;
+}
+
+@media (max-width:700px) {
+    .edit_portfolio_form_wrapper{
+        width: 90%;
+    }
+    .single_form_input{
+        height: 40px;
+    }
+    .single_form_input::placeholder{
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-width:350px) {
+    .single_form_input::placeholder{
+        font-size: 14px;
+    }
+}

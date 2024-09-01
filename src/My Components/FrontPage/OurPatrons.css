@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.OurPatrons_page {
+  background: #fbdfaf;
+  min-height: 60vh;
+}
+
+.OurPatrons_page .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+.OurPatrons_page .carousel-control-prev-icon,
+.OurPatrons_page .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+.OurPatrons_page .carousel-control-prev {
+  width: 5vw;
+}
+.OurPatrons_page .carousel-control-next {
+  width: 5vw;
+}
+
+.OurPatrons_heading1 {
+  width: 100%;
+  padding: 4vh 0px;
+}
+
+.OurPatrons_page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.OurPatrons_imgitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurPatrons_imgitems img {
+  width: 370px;
+  height: 210px;
+  border-radius: 20px;
+  border:  2px solid #ad2f3b;
+}
+
+.OurPatrons_imgitems h3 {
+  color: #000;
+  padding-top: 3vh;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.OurPatrons_imgitems p {
+  color: #000;
+    padding-bottom: 15px;
+    text-align: center;
+    text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+@media (min-width: 1001px) {
+  .carousel-control-prev {
+    left: 0px;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+  }
+}
+/* Small screens */
+@media (max-width: 1000px) {
+  .OurPatrons_Items img {
+  
+ 
+  max-width: 80%;
+ 
+  }
+  .OurPatrons_Caption h3,
+  .OurPatrons_Caption p {
+    font-size: 16px;
+  }
+  .OurPatrons_Items {
+    flex-direction: column;
+  }
+  .OurPatrons_page {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 800px) {
+  /* .OurPatrons_heading1 {
+    font-size: 30px !important;
+  } */
+}

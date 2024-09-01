@@ -1,0 +1,18 @@
+.buttonComponent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AD2F3B;
+    gap: 8px;
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.buttonComponent_label{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,142 @@
+.every-course {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.every-course-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.every-course-name {
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+}
+
+.every-course-price,
+.every-course-price-free,
+.every-course-rating,
+.every-course-posted-by {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--main-font-family);
+}
+
+.every-course-price-free {
+    color: #25D366;
+}
+
+.every-course-rating-all-stars {
+    display: flex;
+    gap: 5px;
+}
+
+.every-course-rating-single-star {
+    height: 17px;
+    aspect-ratio: 1/1;
+    background-image: url(../CCImages/every-course-rating-star-img.png);
+    background-size: cover;
+}
+
+.every-course-start-learning-link {
+    text-decoration: none;
+}
+
+.every-course-start-learning-button {
+    display: flex;
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    border-radius: 8px;
+    background: var(--brown-color);
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: var(--main-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .every-course {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .every-course {
+        width: 250px;
+        padding: 15px;
+    }
+
+    .every-course-price,
+    .every-course-price-free,
+    .every-course-rating,
+    .every-course-posted-by {
+        font-size: 14px;
+    }
+
+    .every-course-start-learning-button {
+        width: 140px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .every-course {
+        width: 350px;
+        padding: 25px;
+    }
+
+    .every-course-price,
+    .every-course-price-free,
+    .every-course-rating,
+    .every-course-posted-by {
+        font-size: 18px;
+    }
+
+    .every-course-start-learning-button {
+        width: 160px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .every-course {
+        width: 280px;
+        padding: 15px;
+    }
+
+    .every-course-price,
+    .every-course-price-free,
+    .every-course-rating,
+    .every-course-posted-by {
+        font-size: 15px;
+    }
+
+    .every-course-start-learning-button {
+        width: 140px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+}

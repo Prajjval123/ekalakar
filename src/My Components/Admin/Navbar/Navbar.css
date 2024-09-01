@@ -1,0 +1,160 @@
+*body {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+ overflow: hidden;
+  background-color: #ad2f3b;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  padding: auto 10px;
+  position: relative;
+}
+
+.Ham_log{
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Admin-logout{
+  position: relative;
+  right: 50px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.sidebar-header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.first_nav_image{
+  color: white;
+  position: absolute;
+  left: 17%;
+  top: 4rem;
+  width: 13rem;
+}
+.second_nav_image{
+  
+  position: absolute;
+  left: 33%;
+  top: -11rem;
+  width: 15rem;
+}
+.sidebarlogo{
+  width: 60px;
+  height: 60px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+ padding: 30px 0px 0px 0px ;
+}
+
+.sidenav a {
+  padding: 5px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  color: #818181;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sidenav a:hover {
+  color: Black;
+}
+
+.sidenav .header-icon {
+  /* position: absolute; */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+ .dropdown-btn {
+  padding: 5px 8px 8px 20px;
+  text-decoration: none;
+ 
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-container
+{
+  display: none;
+  transition: 1s;
+}
+.dropdown-container a
+{
+  
+  padding: 0px 8px 8px 20px;
+  
+}
+
+/* 
+@media (max-width: 768px) {
+ 
+
+  .first_nav_image{
+    color: white;
+    position: absolute;
+    left: 17% !important;
+    top: 4rem !important;
+    width: 13rem !important;
+  }
+  .second_nav_image{
+    
+    position: absolute;
+    left: 33% !important;
+    top: -11rem !important;
+    width: 15rem !important;
+  }
+ 
+}
+@media (max-width:1024px) {
+  .first_nav_image{
+    
+    position: absolute;
+    left: 17% !important;
+    top: 5rem !important;
+    width: 20rem !important;
+  }
+  .second_nav_image{
+
+  }
+}
+ */

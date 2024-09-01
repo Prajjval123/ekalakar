@@ -1,0 +1,108 @@
+/* ! media queries for verification code */
+
+.verifyCodeWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.verifyCodeHeading{
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.verifyCodePara{
+  color: #000000B2;
+  text-align: center;
+  opacity: 0.8;
+  
+}
+
+.verifyCodeForm{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.otpInput{
+  width: 50px;
+  border: 1px solid #00000033;
+  border: 1px solid #00000033;
+border-radius: 10px; 
+aspect-ratio: 4/4;
+margin-top: 10px;
+text-align: center;
+
+/* box-shadow: ; */
+}
+
+
+
+.continueButton{
+  background-color: #AD2F3B;
+  max-width: 312px;
+  width: 312px;
+  margin: 0 auto;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.verifyCodeResend{
+  margin: 0 auto;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.verifyCodeResend span{
+  cursor: pointer;
+  color: #AD2F3B;
+}
+
+
+
+  @media (max-width:470px) {
+    .verifyCodeHeading{
+      font-size: 20px;
+    }
+    .otpInput{
+      width: 3rem;
+      border-radius: 8px;
+   
+      
+    }
+
+    .continueButton{
+      width: 200px;
+      padding: 8px;
+    }
+
+
+    .verifyCodeResend{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width:380px) {
+    .otpInput{
+      width: 2rem;
+      border-radius: 8px;
+    }
+
+    .verifyCodePara{
+      font-size: 14px;
+    }
+
+    .continueButton{
+      width: 150px;
+      padding: 5px;
+    }
+  }
+

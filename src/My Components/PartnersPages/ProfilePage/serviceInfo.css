@@ -1,0 +1,30 @@
+.service_info_wrapper{
+    width: 100%;
+}
+.service_form_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+.service_radio_container{
+    display: flex;
+    flex-direction: row;
+    /* gap: 45px; */
+}
+
+@media (min-width:900px) {
+    
+    .selectOfferLabel{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:700px) {
+    .service_radio_container{
+      display: flex;
+      flex-direction: row;
+      width: 200px;
+    }
+}

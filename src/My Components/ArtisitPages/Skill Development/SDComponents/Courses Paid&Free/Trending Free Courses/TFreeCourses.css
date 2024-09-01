@@ -1,0 +1,23 @@
+#TFreeCourses {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin: 0px 3vw;
+}
+
+#TFreeCoursesText {
+    color: #AD2F3B;
+    font-family: var(--main-font-family);
+    font-size: 32px;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+    #TFreeCoursesText {
+        font-size: 4.5vw;
+    }
+}

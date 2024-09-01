@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+  /* font sizes */
+  :root{
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-21xl: 50px;
+    --font-size-base-9: 16.9px;
+    --font-size-mini-5: 14.5px;
+    --font-size-lgi: 19px;
+    --font-size-mini: 15px;
+    --font-para-16 : 16px;
+    --font-para-18 : 18px;
+
+  }
+
+.Ekperformance_page {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ad2f3b;
+  width: 100%;
+  padding: 1vh 0px;
+  min-height: 110vh;
+}
+
+.Ekperformance_page .carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    display: none;
+}
+
+.Ekperformance_page .carousel-control-prev-icon,
+.Ekperformance_page .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+.Ekperformance_page .carousel-control-prev{
+  width: 5vw;
+}
+.Ekperformance_page .carousel-control-next{
+  width: 5vw;
+ 
+}
+
+.Ekperformance_Carousel img {
+  max-width: 100%;
+}
+
+.Ekperformance_heading1 {
+  width: 100%;
+  padding: 4vh 0px;
+}
+
+.Ekperformance_page h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 35px;
+  /* font-size:var(--font-size-21xl); */
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Ekperformance_heading3 {
+  padding: 1vh 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 189%;
+  letter-spacing: 5.7px;
+  text-transform: uppercase;
+}
+.performance_image{
+  width: 50vw;
+  height: 55vh;
+}
+
+.Ekperformance_p {
+  display: flex;
+  width: calc(85% - 40px);
+  max-width: calc(1202px -40px);
+  font-size: var(--font-para-16);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  flex-direction: column;
+
+  color: #fff;
+
+  text-align: justify;
+
+  font-family: Poppins;
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  text-transform: none;
+  line-height: 142%;
+  letter-spacing: 1.44px;
+}
+
+.carousel-caption {
+  position: relative;
+
+  bottom: auto;
+
+  left: auto;
+
+  right: auto;
+
+  padding-top: auto;
+
+  padding-bottom: auto;
+
+  padding-left: auto;
+
+  padding-right: auto;
+}
+
+@media (max-width:800px){
+  .Ekperformance_p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .Ekperformance_heading3{
+    font-size: 14px;
+  }
+  /* .Ekperformance_heading1{
+    font-size: 30px !important;
+  } */
+  .Ekperformance_page{
+    min-height: 80vh;
+  }
+  .performance_image{
+    max-width: 100%;
+    height: auto;
+    /* width: 100%;
+    height: 30vh; */
+  }
+}

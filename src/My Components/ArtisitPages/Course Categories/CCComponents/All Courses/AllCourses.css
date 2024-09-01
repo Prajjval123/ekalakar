@@ -1,0 +1,32 @@
+#AllCourses {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#multiple-pages {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+#page-number-box{
+    display: flex;
+    gap: 10px;
+}
+
+.page-number {
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    width: 60px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}

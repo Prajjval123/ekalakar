@@ -1,0 +1,304 @@
+.patron_artist_appli_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    /* remove this padding when navbar add */
+    padding-top: 50px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.artist_image_section{
+    position: relative;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.artist_bgImg{
+    width: 95%;
+     margin: 0 auto;
+}
+
+.artist_bgFilter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.artist_application_text{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 35%;
+}
+
+.artist_filter_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* background-color: beige; */
+
+}
+
+.single_artist_filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Poppins;
+    /* background-color: aqua; */
+}
+
+.single_artist_select{
+    background-color: transparent;
+    color: black;
+border: 1px solid rgba(0,0,0,0.21);
+width: 280px;
+
+border-radius: 10px;
+}
+
+.single_artist_title{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+.artist_application_form_container{
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+
+}
+
+.artist_form_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #AD2F3B;
+    align-items: center;
+    height: 96px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.artist_head_date{
+    font-family: Poppins;
+    font-weight: 500;
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.artist_head_Event{
+    font-family: Poppins;
+    font-weight: 500;
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.artist_head_appli{
+    font-family: Poppins;
+    font-weight: 500;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.artist_head_status{
+    font-family: Poppins;
+    font-weight: 500;
+    width: 19%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.artist_head_deadline{
+    font-family: Poppins;
+    font-weight: 500;
+    width: 15%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.body_date{
+    width:10% ;
+    text-align: center;
+    
+}
+.body_event{
+    width:25% ;
+    text-align: center;
+
+}
+.body_appli{
+    
+ text-align: center;
+ text-decoration: none ;
+ color: black;
+ cursor: pointer;
+}
+.body_status{
+    width:16% ;
+    text-align: center;
+}
+.body_deadline{
+    width:13% ;
+    text-align: center;
+}
+
+.single_artist_body_row{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:70px ;
+    align-items: center;
+    box-shadow: -1px 1px 5px -4px rgba(0,0,0,0.75);
+    align-items: center;
+
+}
+.statusClose{
+    color: #FF0606;
+}
+
+.statusOpen{
+    color: #25D366;
+}
+.view_appli_text{
+    color: #AD2F3B;
+}
+
+.artist_event_appli_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.single_artist_event{
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+    padding: 10px;
+    height: fit-content;
+    margin-top: 10px;
+
+}
+.artist_event_appli_container{
+    width: 90%;
+}
+
+.single_element{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Poppins;  
+}
+
+.single_ele_title{
+    font-weight: 500;
+}
+
+@media (min-width:650px) {
+    .artist_event_appli_container{
+        display: none;
+    }
+}
+
+@media (max-width:1100px) {
+    .artist_body{
+        font-size: 14px;
+    }
+
+    .artist_form_head p{
+        font-size: 16px;
+    }
+
+    .artist_application_text{
+         font-size: 40px;
+    }
+}
+@media (max-width:850px) {
+    .artist_body{
+        font-size: 10px;
+    }
+    .artist_form_head p{
+        font-size: 12px;
+    }
+
+    .artist_filter_section{
+        overflow-x: scroll;
+        gap: 30px;
+        box-shadow: -1px 1px 5px -4px rgba(0,0,0,0.75);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        width: 100%;
+       
+        
+    }
+    .artist_filter_section::-webkit-scrollbar{
+        background-color: transparent;
+    }
+
+    .single_artist_title{
+        font-size: 14px;
+    }
+
+   
+}
+
+@media (max-width:650px) {
+    .artist_application_form_container{
+        display: none;
+    }
+    .artist_event_appli_container{
+        display: block;
+    }
+    .artist_application_text{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:450px) {
+    .artist_application_text{
+        font-size: 20px;
+    }
+    .single_artist_select{
+        width: 135px;
+    }
+
+    .single_element p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

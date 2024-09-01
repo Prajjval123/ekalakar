@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.OurArtists_page {
+  background: #ad2f3b;
+  min-height: 90vh;
+}
+
+.OurArtists_page .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+.OurArtists_page .carousel-control-prev-icon,
+.OurArtists_page .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+.OurArtists_page .carousel-control-prev {
+  width: 5vw;
+}
+.OurArtists_page .carousel-control-next {
+  width: 5vw;
+}
+
+.OurArtists_heading1 {
+  width: 100%;
+  padding: 4vh 0px;
+}
+
+.OurArtists_page h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.OurArtists_imgitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurArtists_imgitems img {
+  width: 323px;
+  height: 323px;
+  border-radius: 300px;
+}
+
+.OurArtists_imgitems h3 {
+  color: #fff;
+  padding-top: 3vh;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.OurArtists_imgitems p {
+  color: #fff;
+  padding: 0vh 0px;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+@media (min-width: 1001px) {
+  .carousel-control-prev {
+    left: 0px;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+  }
+}
+/* Small screens */
+@media (max-width: 1000px) {
+  .OurArtists_Items img {
+    width: calc(323px - 40px);
+    height: calc(323px - 40px);
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .OurArtists_Caption h3,
+  .OurArtists_Caption p {
+    font-size: 16px;
+  }
+  .OurArtists_Items {
+    flex-direction: column;
+  }
+  .OurArtists_page {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .OurArtists_heading1 {
+    font-size: 30px;
+  }
+}

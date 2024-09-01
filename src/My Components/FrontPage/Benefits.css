@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css';
+
+
+  /* font sizes */
+:root{
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 50px;
+  --font-size-base-9: 16.9px;
+  --font-size-mini-5: 14.5px;
+  --font-size-lgi: 19px;
+  --font-size-mini: 15px;
+}
+
+
+
+
+.Benefits_Page {
+  background: #fbdfaf;
+  min-height: 40vh !important;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2vh;
+}
+
+.Benefits_Page .carousel-indicators {
+  bottom: -30px;
+}
+
+.Benefits_Page .carousel-indicators .active {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  background-color: #ad2f3b !important;
+}
+
+.Benefits_Page .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  background-color: #000 !important;
+}
+
+.Benefits_heading1 {
+  width: 100%;
+  padding: 4vh 0px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+
+.Benefits_page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Benefits_Media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.Benefits_Media_Items {
+  width: 308px;
+  height: 291px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.Benefits_Media_Items h3 {
+  display: flex;
+  margin-top: 2vh;
+  width: 308px;
+  height: 29px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.Benefits_hover {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: inherit;
+  height: 241px;
+  border-radius: 20px;
+  text-align: justify;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  top: 41%;
+  left: 50%;
+  padding: 2vh;
+  background-color: #000000bf;
+  color: white;
+  opacity: 0;
+}
+
+.Benefits_Media_Items:hover .Benefits_hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.Benefits_Media_Item {
+  width: 308px;
+  height: 241px;
+  border-radius: 18px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.Benefits_Carousel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly !important;
+  align-items: center;
+  margin-top: 4vh;
+  flex-direction: row;
+}
+
+.Benefits_Carousel_Items {
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+.Benefits_P {
+  width: 532px;
+  height: 394px;
+  /*width: 34.63vw;
+  height: 55.18vh;*/
+  color: #000;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142%; /* 25.56px */
+  /*overflow: scroll;*/
+}
+
+.Benefits_Carousel_Item {
+  width: 569px;
+  height: 400px;
+  /*width: 37vw;
+  height: 62.4vh;*/
+  border-radius: 18px;
+  margin-top: -10vh;
+}
+
+.Benefits_Carousel_Items button {
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  background: rgba(164, 28, 52, 0.9);
+  width: 200px;
+  height: 50px;
+  float: left;
+}
+
+.Benefits_Carousel_Items button:hover {
+  cursor: pointer;
+}
+
+.Benefits_Page .carousel-control-prev-icon,
+.Benefits_Page .carousel-control-next-icon,
+.Benefits_Media .carousel-control-prev-icon,
+.Benefits_Media .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+.Benefits_Page .carousel-control-prev,
+.Benefits_Media .carousel-control-prev {
+  width: 5vw;
+}
+.Benefits_Page .carousel-control-next,.Benefits_Media .carousel-control-next {
+  width: 5vw;
+}
+
+
+
+@media (max-width: 1025px) {
+ 
+  .Benefits_Carousel {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Benefits_Carousel_Items {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin-top: 5vh;
+  }
+
+  .Benefits_Carousel_Item {
+    width: 70%;
+    height: 50%;
+  }
+
+  .Benefits_P {
+    height: auto;
+    width: 100%;
+    overflow: visible;
+    font-size: 14px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .Benefits_Carousel_Items button {
+    float: inherit;
+  }
+}
+
+@media (max-width: 550px) {
+  .Benefits_heading1 {
+    font-size: 20px !important;
+  }
+
+  .Benefits_Page .carousel-indicators button {
+    display: none;
+  }
+  .Benefits_Page {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .Benefits_heading1 {
+    font-size: 35px !important;
+  }
+
+  .Benefits_Media {
+    margin-top: 2vh;
+  }
+  .Benefits_Media_Items {
+    width: 250px;
+    height: 300px;
+  }
+
+  .Benefits_Media_Items h3 {
+    width: 250px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .Benefits_Media_Item {
+    width: 250px;
+    height: 250px;
+  }
+  .Benefits_Upcoming h4 {
+    font-size: 16px;
+  }
+}

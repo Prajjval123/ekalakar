@@ -1,0 +1,13 @@
+.db-bt-c-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.db-bt-c-content p{
+    font-family: var(--fw-300);
+}
+.db-bt-c-content h6{
+    font-family: var(--fw-400);
+    font-size: var(--fs-15);
+}

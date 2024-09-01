@@ -1,0 +1,353 @@
+.portfolioDisplay_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.portfolio_actual_navbar{
+    width: 100%;
+    height: 75px;
+}
+
+/* ! card button wrapper */
+
+.card_button_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.portfolio_display_heading{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 48px;
+}
+/* ! porfolio user details name and star  */
+
+.portfolio_usersDetails{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.userName_review_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+}
+
+.portfolio_verify_userName{
+    display: flex;
+   flex-direction: row;
+   gap: 20px; 
+   align-items: center;
+}
+
+.portfolio_userName{
+    font-weight: 600;
+    font-size: 48px;
+    font-family: Poppins;
+}
+
+.portfolio_verify_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #61C6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_star_review_container{
+ display: flex;
+ flex-direction: column;
+ /* gap: 20px; */
+
+}
+
+.star_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.all_stars{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.filledStar{
+    width: 29px;
+    height: 27px;
+    color: #FFD130;
+    cursor: pointer;
+}
+
+.emptyStar{
+    width: 29px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.No_review_text{
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.read_review_text{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #AD2F3B;
+    cursor: pointer;
+}
+
+.about_me_text{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 40px;
+    color: #AD2F3B;
+}
+
+.user_aboutMe_detail{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.user_profession_details{
+    width: 547px;
+    height: 590px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.7);    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 32px;
+
+}
+
+.single_userProfession_detail{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.profession_title{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.profession_info{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.view_button_Wrapper{
+    /* background-color: #61C6FF; */
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.view_btn{
+    width: 132px;
+    height: 46px;
+    padding: 11px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    border-radius: 17px;
+    border: none;
+}
+
+.hire_btn{
+    background-color: #38FF83;
+}
+.shortlist_btn{
+    background-color: #FFCC48;
+}
+
+.reject_btn{
+    background-color: #DF0000;
+}
+
+
+
+@media (max-width:1000px) {
+    
+    .portfolio_verify_userName{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .portfolio_userName{
+        font-size: 32px;
+
+    }
+
+    .portfolio_verify_img{
+         width: 30px;
+         height: 30px;
+         margin-top: -10px;
+         
+    }
+    .portfolio_verify_img img{
+        width: 20px;
+    }
+    .all_stars{
+         display: flex;
+         flex-direction: row;
+         gap: 3px;
+    }
+    .No_review_text{
+        font-size: 16px;
+    }
+    .read_review_text{
+        font-size: 16px;
+    }
+
+    .about_me_text{
+        font-size: 28px;
+    }
+    .user_aboutMe_detail{
+        font-size: 18px;
+        font-family: Poppins;
+    }
+}
+
+@media (max-width:800px) {
+    .portfolio_usersDetails{
+        width: 100%;
+        /* background-color: red; */
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:665px) {
+    .userName_review_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+  align-items: flex-start;
+    }
+
+    .user_star_review_container{
+        margin-top: -20px;
+
+    }
+    .all_stars{
+        font-size: 10px;
+    }
+
+
+    .filledStar{
+width: 20px;
+    }
+    .emptyStar{
+ width: 20px;
+    }
+
+    .No_review_text{
+        font-size: 14px;
+    }
+
+.read_review_text{
+    font-size: 14px;
+    margin-top: -10px;
+}
+}
+
+@media (max-width:400px) {
+    .card_button_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .view_button_Wrapper{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .view_btn{
+        margin-top: 10px;
+        width: 50%;
+    }
+}
+
+@media (max-width:360px) {
+    .portfolio_userName{
+        font-size: 24px;
+    }
+
+    .about_me_text{
+        font-size: 22px;
+    }
+    .user_aboutMe_detail{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:580px) {
+    .user_profession_details{
+        width: 100%;
+        /* height: fit-content; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    .view_button_Wrapper{
+        justify-content: space-evenly;
+        gap: 0px;
+    }
+   
+}
+
+@media (max-width:430px) {
+    .profession_title{
+        font-size: 14px;
+       }
+       .profession_info{
+        font-size: 14px;
+       }
+
+       .portfolio_display_heading{
+        font-size: 30px;
+       }
+}

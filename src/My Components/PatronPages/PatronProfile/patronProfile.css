@@ -1,0 +1,313 @@
+.patronProfile_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.patronProfile_container {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.rectangleImg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.patron_img_name_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  align-items: center;
+}
+
+.patron_img {
+  width: 200px;
+  transform: translateY(-70px);
+}
+
+.verify_container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #61c6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  transform: translateY(-70px);
+}
+
+.patron_name {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  transform: translateY(-70px);
+}
+
+.verify_name_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+
+.patron_profession {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 70%;
+  margin-top: -15px;
+  transform: translateY(-70px);
+}
+
+.personal_information_text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ad2f3b;
+}
+
+.personal_info_form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.personal_info_form_part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.single_personal_info {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex-grow: 1
+}
+
+.form_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.personal_form_input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: Poppins;
+}
+
+.artEdu_select {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  width: 100%;
+  height: 60px;
+  padding-left: 10px;
+}
+
+.add_Educ_wrapper {
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add_Educ_text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.plus_wrapper {
+  background-color: #ad2f3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+select::placeholder {
+  color: black;
+}
+
+.minus_sign {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 5px;
+  color: white;
+}
+
+.updateButton {
+  width: 140px;
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  background-color: #ad2f3b;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.aboutUs_input {
+  height: 170px;
+}
+
+@media (max-width: 1000px) {
+  .patronProfile_container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .patron_img {
+    width: 150px;
+    transform: translateY(-50px);
+  }
+
+  .patron_name {
+    transform: translateY(-55px);
+  }
+  .verify_container {
+    transform: translateY(-55px);
+  }
+
+  .patron_profession {
+    transform: translateY(-55px);
+  }
+
+  .single_personal_info {
+    width: 45%;
+  }
+
+  .personal_info_form_part {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 950px) {
+  .patronProfile_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .patronProfile_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .patron_img {
+    width: 120px;
+    transform: translateY(-40px);
+  }
+
+  .patron_name {
+    transform: translateY(-45px);
+  }
+
+  .verify_container {
+    transform: translateY(-45px);
+  }
+
+  .patron_profession {
+    transform: translateY(-50px);
+  }
+
+  .single_personal_info {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .personal_information_text {
+    margin-left: 25px;
+  }
+
+  .personal_form_input {
+    height: 45px;
+  }
+
+  .plus_wrapper {
+    margin-top: -10px;
+  }
+
+  .aboutUs_input {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .patron_img {
+    width: 100px;
+    transform: translateY(-30px);
+  }
+
+  .patron_name {
+    font-size: 17px;
+    transform: translateY(-40px);
+  }
+  .verify_container {
+    width: 17px;
+    height: 17px;
+    transform: translateY(-40px);
+  }
+  .patron_profession {
+    font-size: 16px;
+  }
+
+  .minus_sign {
+    margin-top: 15px;
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 350px) {
+  .patron_img {
+    width: 80px;
+    transform: translateY(-25px);
+  }
+  .patron_name {
+    transform: translateY(-35px);
+  }
+
+  .verify_container {
+    transform: translateY(-35px);
+  }
+
+  .patron_profession {
+    transform: translateY(-40px);
+  }
+
+  .personal_information_text {
+    margin-left: 2px;
+  }
+
+  .plus_wrapper {
+    width: 35px;
+    height: 35px;
+    margin-top: -15px;
+  }
+}

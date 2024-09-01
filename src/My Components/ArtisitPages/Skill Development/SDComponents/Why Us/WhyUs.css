@@ -1,0 +1,143 @@
+
+:root{
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-21xl: 50px;
+    --font-size-base-9: 16.9px;
+    --font-size-mini-5: 14.5px;
+    --font-size-lgi: 19px;
+    --font-size-mini: 15px;
+    --font-para-16 : 16px;
+    --font-para-18 : 18px;
+  
+  }
+#complete-why-us-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    padding: 0px 3vw;
+}
+
+#why-choose-us-text {
+    color: #AD2F3B;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: var(--font-size-21xl);
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.96px;
+}
+
+#why-choose-us-all-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 15px; */
+}
+/* 
+.every-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 20px;
+    width: 30vw;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+.every-icon-bg {
+    width: 50px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #AD2F3B;
+}
+
+.every-icon {
+    height: 20px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+}
+
+#icon-1 {
+    background-image: url(../SDImages/why-choose-us-learn-from-anywhere-img.png);
+}
+
+#icon-2 {
+    background-image: url(../SDImages/why-choose-us-learn-from-tought-by-experts-img.png);
+}
+
+#icon-3 {
+    background-image: url(../SDImages/why-choose-us-learn-in-demand-skill-img.png);
+} */
+
+/* responsive */
+
+@media screen and (max-width: 1100px) {
+    /* .every-box{
+        padding: 16px;
+    } */
+}
+@media screen and (max-width: 850px) {
+    #complete-why-us-section {
+        gap: 40px;
+    }
+    #why-choose-us-text {
+        font-size: 40px;
+    }
+    #why-choose-us-all-boxes{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:5vw;
+    }
+    .every-box{
+        width: 44vw;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* .every-box{
+        padding: 15px;
+        gap: 15px;
+    }
+    .every-icon-bg{
+        width: 45px;
+    }
+    .every-icon {
+        height: 15px;
+    } */
+}
+
+@media screen and (max-width: 475px) {
+    #complete-why-us-section {
+        gap: 30px;
+    }
+    #why-choose-us-text {
+        font-size: 35px;
+    }
+    /* .every-box{
+        width: 80vw;
+        padding: 25px;
+        gap: 20px;
+    } */
+}
+@media screen and (max-width: 400px) {
+    #complete-why-us-section {
+        gap: 20px;
+    }
+    #why-choose-us-text {
+        font-size: 30px;
+    }
+    .every-box{
+        width: 90vw;
+        padding: 15px;
+        gap: 15px;
+    }
+}

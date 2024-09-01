@@ -1,0 +1,144 @@
+/* ! media queries for forgetpassword component */
+
+
+  .authTemplateWrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     gap: 15px;
+    position: relative;
+    overflow-x: hidden;
+ overflow-y: hidden;
+  }
+.hideImage{
+  display: none;
+}
+
+
+
+  .authTemplateNav{
+    /* background-color: red; */
+      max-width: 95%;
+      max-height: 70px;
+      display: flex ;
+      flex-direction: row ;
+     
+  }
+
+  .authTemplateNavLogo{
+    display: none;
+  }
+  .whiteBlockWrapper{
+    transform: translateY(-13px);
+    max-width: 500px;
+    width: 100%;
+    /* height: 720px; */
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+  }
+
+
+  .whiteBlockWrapperActive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+
+
+  .whiteBlockWrapperImg{
+    max-width: 97px;
+
+  }
+
+  .authTemplateBackgroundImg{
+    display: none;
+    position: absolute;
+    z-index: -30;
+    width: 100%;
+    height: 100%;
+  }
+
+  .authTemplateBgPic{
+    display: block ;
+    position: absolute;
+    z-index: -30;
+    width: 100%;
+    min-height: 100%;
+  }
+
+  @media (min-width:1024px) {
+    .authTemplateNavLogo{
+      display: block;
+    }
+
+    .whiteBlockWrapper{
+      margin:0 40px;
+    }
+
+    .authTemplateBackgroundImg{
+      display: block;
+    }
+
+    .authTemplateBgPic{
+      display: none;
+    }
+  }
+
+
+  @media (min-width:640px) {
+    .whiteBlockWrapper{
+      max-width: 500px;
+    }
+  }
+
+  @media (max-width:768px) {
+    .whiteBlockWrapper{
+      width: 90%;
+    }
+  }
+
+
+
+
+  @media (max-width:992px) {
+    .authTemplateWrapper{
+      min-height: 100vh;
+      height: fit-content;
+    }
+
+    .whiteBlockWrapper{
+      height: 700px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+  }
+
+  @media (max-width:470px) {
+     .minimizeHeight{
+      margin-top: 50px;
+      height:600px ;
+     }
+  }
+
+  @media (max-width:400px) {
+    .whiteBlockWrapper{
+/* height: 650px; */
+padding-top: 10px;
+padding-bottom: 10px;
+ margin:auto auto;
+    }
+  }
+
+
+
+

@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.ArtistProfiles_Page {
+  min-height: 50vh;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ArtistProfiles_Image {
+  background-image: url("../Images/ArtistProfiles_img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1340px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ArtistProfiles_Image_Content {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.ArtistProfiles_Image_Content p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ArtistProfiles_Main {
+  display: flex;
+  justify-content: space-between;
+  width: 1340px;
+  margin: 40px 0px 20px;
+}
+
+.ArtistProfiles_Allfilters {
+  width: 317px;
+  height: auto;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+}
+.ArtistProfiles_Allfilterspopup {
+  width: 317px;
+  height: auto;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  background:#fff ;
+}
+.ArtistProfiles_Allfilters h5 {
+  color: #ad2f3b;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.ArtistProfiles_Allfilters_form_inputfield {
+  margin: 20px 0px;
+}
+
+.ArtistProfiles_Allfilters_form_inputfield input,
+.ArtistProfiles_Allfilters_form_inputfield select {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  color: black;
+}
+
+.ArtistProfiles_Allfilters_form_inputfield label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ArtistProfiles_allprofilecards {
+  width: 1000px;
+  height: auto;
+  border: 0px solid black;
+  padding: 10px;
+}
+
+.ArtistProfiles_allprofilecards h5 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ArtistProfiles_allprofilecards button{
+  border: none;
+  background: #ad2f3b;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 10px;
+}
+
+.ArtistProfiles_allprofilecards_content {
+  width: 970px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ArtistProfiles_allprofilecards_filterbtn{
+  visibility: hidden;
+}
+
+.ArtistProfiles_ProfileCard {
+  display: flex;
+  width: 431px;
+  height: 217.998px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4.541623115539551px 1.816649317741394px
+    rgba(0, 0, 0, 0.15);
+  margin: 20px 0px;
+  padding: 20px;
+  background-image: url("../Images/Rectangle\ 3945.png");
+  background-repeat: no-repeat;
+  background-position: 55%;
+}
+
+.ArtistProfiles_ProfileCard_left {
+  height: 100%;
+  width: 55%;
+}
+
+.ArtistProfiles_ProfileCard_left img {
+  width: 64px;
+  height: 54px;
+}
+
+.ArtistProfiles_ProfileCard_left_components1 {
+  background-color: #ad2f3b;
+  height: 18px;
+  width: 18px;
+  border-radius: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ArtistProfiles_ProfileCard_left_components {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ArtistProfiles_ProfileCard_left_components p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ArtistProfiles_ProfileCard_left_components_social {
+  display: flex;
+  color: #000;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ArtistProfiles_ProfileCard_right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-end;
+  text-align: center;
+}
+.ArtistProfiles_ProfileCard_right img {
+  width: 85px;
+  height: 85px;
+  border-radius: 200px;
+}
+
+.ArtistProfiles_ProfileCard_right p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14.533px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Profilecard_btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Profilecard_btns button {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profilecard_btns .btnone {
+  background: #fff;
+  border: 1px solid #ad2f3b;
+  color: #ad2f3b;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 15px;
+}
+
+.Profilecard_btns .btntwo {
+  border-radius: 15px;
+  background: #ad2f3b;
+  border: 1px solid #ad2f3b;
+  color: white;
+}
+
+@media (max-width:1030px) {
+  .ArtistProfiles_Image{
+    width: 980px;
+  }
+  .ArtistProfiles_Main{
+    width: 980px;
+  }
+  .ArtistProfiles_allprofilecards{
+    width: 980px ;
+  }
+  .ArtistProfiles_Allfilters{
+    display: none;
+  }
+  .ArtistProfiles_allprofilecards_filterbtn{
+    visibility: visible;
+  }
+  
+}
+
+@media (max-width:800px) {
+  .ArtistProfiles_Image{
+    width: 720px;
+  }
+  .ArtistProfiles_Image_Content{
+    justify-content: center;
+  }
+  .ArtistProfiles_Main{
+    width: 720px;
+  }
+  .ArtistProfiles_allprofilecards{
+    width: 720px ;
+  }
+  .ArtistProfiles_allprofilecards_content{
+    width: 720px;
+    justify-content: center;
+  }
+}
+
+@media (max-width:500px) {
+  .ArtistProfiles_Image{
+    width: 90vw;
+  }
+  .ArtistProfiles_Image_Content p{
+  font-size: 40px;
+  }
+  .ArtistProfiles_Main{
+    width: 90vw;
+  }
+  .ArtistProfiles_allprofilecards{
+    width: 90vw ;
+    padding: 0px;
+  }
+  .ArtistProfiles_allprofilecards_content{
+    width: 90vw;
+  }
+  .ArtistProfiles_ProfileCard{
+    width: 90vw;
+    background-image: none;
+  }
+  .ArtistProfiles_allprofilecards_content{
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width:400px) {
+  .ArtistProfiles_ProfileCard {
+    padding: 5px;
+  }
+  .ArtistProfiles_ProfileCard_left_components_social {
+    font-size: 6px;
+  }
+}

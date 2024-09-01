@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.AboutPartner_Page {
+  min-height: 50vh;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AboutPartner_ProfileCard {
+  width: 656px;
+  height: 752px;
+  border-radius: 30px;
+  box-shadow: 0px 25px 45px 0px rgba(22, 22, 22, 0.1);
+}
+
+.AboutPartner_ProfileCard_topelement {
+  background: #ad2f3b;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 200px;
+}
+
+.AboutPartner_ProfileCard_bottomelement {
+  height: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AboutPartner_ProfileCard_bottomelement_Profilepic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: -100px;
+}
+
+.AboutPartner_ProfileCard_bottomelement_Profilepic p {
+  text-align: center;
+}
+
+.AboutPartner_ProfileCard_bottomelement_Profilepic .p1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.AboutPartner_ProfileCard_bottomelement_Profilepic .p2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.AboutPartner_ProfileCard_bottomelement_details p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 32px;
+}
+
+.AboutPartner_ProfileCard_bottomelement_details p span {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.AboutPartner_ProfileCard_bottomelement_Socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.AboutPartner_Page button {
+  background-color: #ad2f3b;
+  color: white;
+  display: flex;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: 15px;
+  margin: 80px 0px;
+}
+
+.AboutPartner_Page h1 {
+  color: #ad2f3b;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  width: 90%;
+}
+
+.AboutPartner_Aboutus {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AboutPartner_Aboutus p {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.AboutPartner_Aboutus_details {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background: #fff;
+  width: 561px;
+  height: 379px;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.AboutPartner_Aboutus_details_one p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 55px;
+}
+
+.AboutPartner_Aboutus_details_two p {
+  color: #ad2f3b;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 55px;
+}
+
+.AboutPartner_ProductImages img {
+  width: 348px;
+  height: 348px;
+  border-radius: 30px;
+}
+
+.AboutPartner_ProductImages .carousel-control-prev-icon,
+.AboutPartner_ProductImages .carousel-control-next-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: bolder !important;
+}
+
+.AboutPartner_ProductImages .carousel-control-prev {
+  width: 1vw;
+}
+.AboutPartner_ProductImages .carousel-control-next {
+  width: 1vw;
+}
+
+.AboutPartner_ProductImages .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .AboutPartner_ProfileCard {
+    width: 95%;
+  }
+  .AboutPartner_Aboutus_details {
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .AboutPartner_ProfileCard_bottomelement_details p {
+    font-size: 14px;
+  }
+  .AboutPartner_Aboutus_details p {
+    font-size: 14px;
+  }
+}

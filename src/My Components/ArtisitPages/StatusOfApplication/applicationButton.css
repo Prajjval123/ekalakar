@@ -1,0 +1,19 @@
+.appli_button{
+    width: 180px;
+    background-color: #AD2F3B;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.appli_button_background{
+    background-color: transparent;
+    color: #AD2F3B;
+    border: 2px solid #AD2F3B;
+}

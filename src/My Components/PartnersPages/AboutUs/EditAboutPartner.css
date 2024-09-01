@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.EditAboutPartner_Page {
+  min-height: 50vh;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.EditEditAboutPartner_Page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.EditAboutPartner_ProfileCard {
+  width: 656px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0px 25px 45px 0px rgba(22, 22, 22, 0.1);
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.EditAboutPartner_ProfileCard_topelement {
+  background: #000;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 200px;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement {
+  height: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_Profilepic .Profilepichere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  margin-top: -100px;
+  background-color: #d9d9d9;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_Profilepic p {
+  text-align: center;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_Profilepic .p1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_Profilepic .p2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_details p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 32px;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_details p span {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.EditAboutPartner_ProfileCard_bottomelement_Socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.EditAboutPartner_Btn1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 260px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #000;
+  border: none;
+  margin: 50px 0px;
+}
+
+.EditAboutPartner_form form {
+  width: 656px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EditAboutPartner_form_inputfield {
+  margin-top: 28px;
+}
+
+.EditAboutPartner_form_inputfield label,
+.EditAboutPartner_form_inputfield_images label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.EditAboutPartner_form_inputfield input {
+  width: 656px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.EditAboutPartner_form_inputfield textarea {
+  height: 150px;
+  width: 656px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+::placeholder {
+  color: black;
+}
+
+.EditAboutPartner_form_inputfield select {
+  background-color: white;
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 656px;
+  height: 60px;
+}
+
+.Productimages {
+  display: flex;
+  width: 656px;
+  justify-content: space-between;
+}
+
+.EditAboutPartner_form_inputfield_images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.EditAboutPartner_form_inputfield_images input[type="file"] {
+  width: 172px;
+  display: none;
+}
+
+.EditAboutPartner_form_inputfield_images label {
+  border: 1px solid #000;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 47px;
+  width: 172px;
+  border-radius: 10px;
+}
+
+.EditAboutPartner_form_inputfield_socials {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.EditAboutPartner_form_inputfield_socials input {
+  width: 592px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.EditAboutPartner_form form button {
+  display: flex;
+  width: 160px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0px;
+  border: none;
+  border-radius: 15px;
+  background: #ad2f3b;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width:500px){
+  .EditAboutPartner_ProfileCard {
+    width: 95%;
+  }
+  .EditAboutPartner_form form {
+    width: 95%;
+  }
+  .EditAboutPartner_form_inputfield input,.EditAboutPartner_form_inputfield select,.Productimages{
+    width: 90vw;
+  }
+  .EditAboutPartner_form_inputfield_socials input{
+    width: 80vw;
+  }
+}

@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-plus-jakarta-sans: 'Plus Jakarta Sans';
+  --font-sansita-swashed: 'Sansita Swashed';
+
+  /* font sizes */
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-moccasin: #fbdfaf;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}
+
+.joinUs {
+  position: relative;
+  top: 36px;
+  left: 0;
+  margin-bottom: 15px;
+
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.joinTheCultural {
+  margin: 0;
+}
+.joinTheCulturalContainer {
+  position: relative;
+  margin: 50px 60px;
+  font-size: 20px;
+  font-family: var(--font-poppins);
+  text-align: justify;
+  display: inline-block;
+
+  text-shadow: 8px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.joinusbutton a{
+color: transparent;
+}
+
+.row{
+  margin-left: 0px !important;
+}
+/*   
+  .frameChild,
+  .frameItem {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+  }
+  .frameChild {
+    border: 1px solid moccasin;
+    background-color: transparent;
+    top: 623px;
+    left: 393px;
+    border-radius: var(--br-xl);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    width: 116px;
+    height: 50px;
+  }
+  .frameItem {
+    border: 0;
+    top: 519px;
+    left: 89px;
+  }
+  .frameInner,
+  .frameItem,
+  .rectangleButton {
+    background-color: moccasin;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 147px;
+    height: 50px;
+  }
+  .frameInner {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 429px;
+    left: 89px;
+  }
+  .rectangleButton {
+    top: 519px;
+    left: 277px;
+  }
+  .frameChild1,
+  .frameChild2,
+  .rectangleButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .frameChild1 {
+    background-color: moccasin;
+    top: 429px;
+    left: 277px;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 147px;
+    height: 50px;
+  }
+  .frameChild2 {
+    top: 519px;
+    left: 476px;
+    width: 146px;
+  }
+  .frameChild2,
+  .frameChild3,
+  .frameChild4 {
+    background-color: moccasin;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px;
+  }
+  .frameChild3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 429px;
+    left: 476px;
+    width: 146px;
+  }
+  .frameChild4 {
+    top: 519px;
+    left: 684px;
+    width: 147px;
+  }
+  .frameChild4,
+  .frameChild5,
+  .volunteer {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .frameChild5 {
+    background-color: moccasin;
+    top: 429px;
+    left: 684px;
+    border-radius: var(--br-xl);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 147px;
+    height: 50px;
+  }
+  .volunteer {
+    background-color: transparent;
+    top: 532px;
+    left: 708px;
+    font-size: var(--font-size-mini);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+    width: 98px;
+  }
+  .artLover,
+  .volunteer,
+  .workWithUs {
+    color: black;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .artLover {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 442px;
+    left: 708px;
+    font-size: var(--font-size-mini);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+    width: 98px;
+  }
+  .workWithUs {
+    top: 532px;
+    left: 298px;
+    width: 104px;
+  }
+  .investor,
+  .partners,
+  .workWithUs {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    font-size: var(--font-size-mini);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+  }
+  .partners {
+    top: 442px;
+    left: 509px;
+    color: black;
+    width: 81px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .investor {
+    top: 532px;
+    left: 98px;
+    width: 127px;
+  }
+  .artist,
+  .intern,
+  .investor {
+    color: black;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .artist {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 442px;
+    left: 287px;
+    font-size: var(--font-size-mini);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+    width: 127px;
+  }
+  .intern {
+    top: 532px;
+    left: 519px;
+    width: 59px;
+  }
+  .intern,
+  .join,
+  .patron {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    font-size: var(--font-size-mini);
+    font-weight: 700;
+    font-family: var(--font-poppins);
+    text-align: center;
+    display: inline-block;
+  }
+  .patron {
+    top: 442px;
+    left: 132px;
+    color: black;
+    width: 59px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .join {
+    top: 636px;
+    left: 393px;
+    color: white;
+    width: 116px;
+    height: 20px;
+  } */
+/* 
+  .lovepikCom401403517TraditioIcon {
+    position: absolute;
+
+    top: 94px;
+    left: 849px;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+  } */
+
+.joinUsParent {
+  position: relative;
+  /* background-color: #ad2f3b; */
+  width: 100%;
+  /* height: 734px; */
+  /* overflow: hidden; */
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  font-family: var(--font-plus-jakarta-sans);
+}
+
+
+
+.btn11 {
+  font-size: var(--font-size-mini);
+  font-weight: 700;
+  margin: 20px;
+  color: #000;
+  border: 1px solid moccasin;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  background: #fbdfaf;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 140px; /* Adjust the width as needed */
+}
+
+.btn12 {
+  font-size: var(--font-size-mini);
+  font-weight: 700;
+  border: 1px solid moccasin;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  background-color: transparent;
+  font-size: var(--font-size-mini);
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  height: 50px;
+  width: 120px;
+}
+
+.joinus_heading {
+  width: 100%;
+  padding-bottom: 2vh;
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-family: Plus Jakarta Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (max-width:770px) {
+  .Joinek_Page_Image{
+    display: none;
+  }
+  .joinTheCulturalContainer{
+    width: 90% !important;
+    margin: 0px;
+    margin-top: 5vh !important;
+  }
+}
+
+@media (max-width:411px) {
+  .btn11{
+    width: 120px !important; 
+  }
+  .joinTheCulturalContainer{
+    width: 100% !important;
+    margin: 0px;
+    margin-top: 5vh !important;
+  }
+  .joinTheCultural{
+    padding: 10px;
+  }
+}
+
+@media (max-width:368px) {
+  .btn11{
+    width: 95px !important; 
+    margin: 15px;
+  }
+  
+}
+
+@media (max-width:320px) {
+  .btn11{
+    width: 92px !important; 
+    margin: 10px;
+  }
+  
+}
+
+

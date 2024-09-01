@@ -1,0 +1,317 @@
+.signupWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.termAndCondition{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  /* background-color: red; */
+  width: 100%;
+  margin: 5px 0;
+}
+
+
+
+.fullNameWrapper{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.signupHeading{
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  width: 80%;
+}
+
+.custom-select{
+  width: 40%;
+  background-color: white;
+  color: #AD2F3B;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #312f2f66;
+  padding: 4px 12px;
+  border-radius: 10px;
+
+  
+}
+
+.signupSelectOption{
+  color: #000000;
+  font-weight: 500;
+  font-size:28px;
+}
+
+.signupPara{
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  /* font-size: 20px;
+  margin-bottom: -10px; */
+  font-size: 19px;
+  margin-top: 16px;
+  margin-bottom: -19px
+}
+
+.signupForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88%;
+}
+
+.signupFormLabel{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+ margin-top: 3px;
+  padding-left: 8px;
+}
+
+.signupFormPara{
+  text-align: left;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+
+.signupFormInput{
+   font-size: 14px;
+   width: 100%;
+   height: 40px;
+   border: 1px solid #00000066;
+   padding: 4px;
+   margin-top: -10px;
+   border-radius: 10px;
+   color: black;
+}
+
+
+
+input::placeholder {
+  color: black;
+  opacity: 70%;
+}
+
+.registerButton{
+  background-color: #AD2F3B ;
+  font-weight: 500;
+  max-width: 312px;
+  width: 312px;
+  color: white;
+  padding: 10px;
+  margin-left: -16px;
+  border-radius: 15px;
+}
+
+.navigateLoginPara{
+ margin: 0 auto;
+ font-size: 14px;
+ font-weight: 500;
+ color: black;
+ cursor: pointer;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.navigateLoginPara span{
+  color: #AD2F3B;
+}
+@media (max-width:630px){
+  .signupPara{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:470px) {
+  .signupHeading{
+    font-size: 20px;
+    width: 90%;
+  }
+
+
+  .custom-select{
+    width: 58%;
+    font-size: 20px;
+  }
+
+
+  .registerButton{
+    width: 200px;
+    padding: 8px;
+    margin-left: 10px;
+    
+  }
+
+  .custom-select{
+    size: 20px;
+  }
+
+  .signupPara{
+    font-size: 14px;
+  }
+
+
+  .navigateLoginPara{
+    font-size: 14px;
+  }
+
+  .signupFormInput{
+    font-size: 12px;
+  }
+
+  .fullNameWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+
+  }
+  .nameInput{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width:350px) {
+
+  .registerButton{
+    width: 150px;
+    padding: 5px;
+  }
+
+}
+
+@media (min-width:1024px) {
+  .signupFormInput{
+    width: 380px;
+  }
+
+
+
+}
+
+@media (max-width:1024px) {
+  .fullNameWrapper{
+    /* background-color: red; */
+    margin-right: 0px;
+   }
+   .signupPara{
+    margin-bottom: 5px;
+   }
+}
+
+
+
+.field-icon {
+  float: right;
+  margin-left: 350px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  color: black;
+}
+
+
+.contactNumberWrapper {
+  /*
+    Display the contact number wrapper as a flexbox container
+    with center alignment.
+  */
+  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*
+  Style the contact number select element.
+*/
+.contactNumberWrapper select {
+  /*
+    Set the width of the select element.
+  */
+  width: 20%;
+
+  /*
+    Add a margin to the right of the select element.
+  */
+  margin-right: 5px;
+
+  /*
+    Add a padding to the right of the select element.
+  */
+  padding-right: 2px;
+
+  /*
+    Add a margin to the top of the select element.
+  */
+  margin-top: 0px;
+
+  /*
+    Set the background color of the select element.
+  */
+  background-color: white;
+
+  /*
+    Set the text color of the select element.
+  */
+  color: black;
+
+  /*
+    Add a border to the select element.
+  */
+  border: 2px solid black;
+
+  /*
+    Additional styles.
+  */
+}
+
+/*
+  Style the contact number input element.
+*/
+.contactNumberWrapper input {
+  /*
+    Set the width of the input element.
+  */
+  width: 73%;
+
+  /*
+    Set the border radius of the input element.
+  */
+  border-radius: 7px;
+
+  /*
+    Add padding to the input element.
+  */
+  padding: 15px 120px 11px 6px;
+
+  /*
+    Add a margin to the input element.
+  */
+  margin: -10px 0px 0px;
+
+  /*
+    Additional styles.
+  */
+}
+
+.contactNumberWrapper .field-icon {
+  float: right;
+  margin-left: 350px;
+  margin-top: -27px;
+  position: relative;
+  z-index: 2;
+  color: black;
+}

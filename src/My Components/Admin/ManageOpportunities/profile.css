@@ -1,0 +1,259 @@
+.opportunity-profile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 838px;
+  text-align: center;
+  flex-shrink: 0;
+  padding: auto 10px;
+  background: rgba(255, 240, 241, 0.7);
+  border-radius: 31px;
+}
+
+.opportunity-heading {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ad2f3b;
+}
+
+.sub-heading {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subdiv {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  top: 538px;
+  left: 618px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.profile_card {
+  display: flex;
+  margin: 20px;
+}
+.opportunity_top-division {
+  width: 90%;
+  margin: 3% auto 1%;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ad2f3b;
+}
+.top-division h2 {
+  color: #000000;
+  font-size: 22px;
+}
+.opportunity_left-division {
+  text-align: left;
+  width: 50%;
+  padding: 20px;
+  border-right: 1px solid black;
+  font-family: Poppins;
+  font-size: 24px;
+  /* font-weight: 600; */
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ad2f3b;
+}
+.opportunity_paragraph-text {
+  font-family: Poppins;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+.opportunity_right-division {
+  width: 50%;
+  padding: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ad2f3b;
+}
+
+.opportunity_section-heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.list-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.list-item {
+  list-style: disc;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+
+.profile-footer {
+  height: 73px;
+  flex-shrink: 0;
+  background: #ad2f3b;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.instagram {
+  color: mediumvioletred;
+  font-size: 20px;
+}
+.facebook {
+  font-size: 20px;
+  color: cornflowerblue;
+}
+.profile-footer h3 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.socialicon {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.icon-text {
+  font-size: 17px;
+  color: #000000;
+}
+.profile-middle {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 50px !important; */
+  margin: auto;
+  width: 90%;
+}
+
+.profileicons {
+  font-size: 23px;
+  color: white;
+}
+.icons {
+  background-color: #ad2f3b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .opportunity_left-division {
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+padding: 0 !important;
+    font-family: Poppins;
+    font-size: 24px;
+    border: none;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+  }
+  .opportunity_right-division {
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+    padding: 0 !important;
+  }
+  .opportunity-profile {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    flex-shrink: 0;
+    padding: auto 10px;
+    background: rgba(255, 240, 241, 0.7);
+    border-radius: 31px;
+  }
+
+  .profile-middle {
+    gap: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+  }
+  .opportunity_top-division h1{
+    font-size: 20px !important;
+  }
+  .profile_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-text{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,80 @@
+.dahboard-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* overflow-x: hidden; */
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top:-3rem;
+}
+.dashboard-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap:42px;
+
+    align-items: center;
+    /* background-color: red; */
+}
+.image_container{
+    position: relative;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+/* width: 100%; */
+margin: 0 auto;
+
+}
+.contact_img{
+    width: 95vw;
+}
+
+.filter_img{
+    position: absolute;
+    width: 95vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.table-container{
+    width: 100vw;
+    overflow-y: scroll;
+}
+.table{
+    margin-top: 40px;
+    border: 2px solid black;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+}
+.table-row{
+    border: 2px solid black;
+}
+.table-head{
+    border: 2px solid black;
+    padding: 10px 2px ;
+    
+    
+}
+.table-body{
+    /* border: 2px solid black; */
+    padding: 10px 2px ;
+}
+
+.filter-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dashboard-filter{
+    width: 200px;
+}
+.filter-label{
+    color: black;
+    font-weight: 600;
+}
+.dashboard-select{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+}

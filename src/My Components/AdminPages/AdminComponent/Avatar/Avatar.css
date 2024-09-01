@@ -1,0 +1,28 @@
+.admin-avatar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 100px;
+    overflow: hidden;
+
+}
+/* .img-null{
+    flex-grow: 1;
+    background-color:#D9D9D9;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-null p{
+    margin: 0;
+    color: #ffffff;
+} */
+.admin-avatar-container img{
+    flex-grow: 1;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}

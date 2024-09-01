@@ -1,0 +1,155 @@
+#complete-course-subscription-section {
+    margin: 0px 3vw;
+    position: relative;
+
+}
+
+#course-subscription-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.3);
+    background-image: url(../SDImages/course-subscription-bg-img.png);
+}
+
+#course-subscription-upper-part {
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 5%;
+}
+
+#course-subscription-text {
+    background: linear-gradient(180deg, #AD2F3B 0%, #E9C465 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: var(--heading-font-size);
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+#text-under-course-subscription-text {
+    color: white;
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-size: 3.5vw;
+    font-weight: 500;
+}
+
+#course-subscription-input-and-subscribe-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+
+#course-subscription-input {
+    padding: 0px 15px;
+    font-size: 20px;
+    min-width: 250px;
+    width: 55vw;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 400;
+    border: none;
+}
+
+#course-subscription-input::placeholder {
+    color: rgba(0, 0, 0, 0.70);
+}
+
+#course-subscription-subscribe-button {
+    color: #FFF;
+    font-family: var(--main-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #B64641 0%, #DBA25B 100%);
+}
+
+
+
+#course-subscription-upper-part {}
+
+@media screen and (min-width: 1300px) {
+    #course-subscription-upper-part {
+        top: -2%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #course-subscription-upper-part {
+        top: 12%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #course-subscription-upper-part {
+        top: 17%;
+    }
+
+    #course-subscription-input {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #course-subscription-subscribe-button {
+        height: 40px;
+        font-size: 20px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #course-subscription-upper-part {
+        top: 10%;
+    }
+    
+
+    #course-subscription-input-and-subscribe-button {
+        flex-direction: column;
+    }
+
+    #course-subscription-input {
+        height: 45px;
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #course-subscription-subscribe-button {
+        height: 45px;
+        font-size: 22px;
+        width: 180px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #course-subscription-text {
+        font-size: 35px !important;
+    }
+    #text-under-course-subscription-text{
+        font-size: 11.9px;
+    }
+    #course-subscription-upper-part {
+        top: 11%;
+    }
+}

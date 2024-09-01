@@ -1,0 +1,27 @@
+#complete-course-categories-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin: 20px 3vw;
+}
+
+:root {
+    --brown-color: #AD2F3B;
+    --main-font-family: Poppins;
+}
+
+
+
+/* responsive */
+
+
+@media screen and (max-width: 850px) {
+    #complete-course-categories-section {
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 475px) {
+    #complete-course-categories-section {
+        gap: 30px;
+    }
+}

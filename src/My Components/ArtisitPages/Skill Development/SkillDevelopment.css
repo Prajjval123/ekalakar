@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#complete-skill-development {
+    display: flex;
+    flex-direction: column;
+    gap: 8vw;
+    margin: 20px 0px;
+}
+
+#sd-footer{
+    margin: 0px 3vw;
+}
+
+:root {
+    --brown-color: #AD2F3B;
+    --heading-font-size: 48px;
+    --main-font-family: Poppins;
+}
+/*aditya*/
+
+@media screen and (max-width: 850px) {
+    :root {
+        --heading-font-size: 40px;
+    }
+
+    #complete-skill-development {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    :root {
+        --heading-font-size: 35px;
+    }
+    #complete-skill-development {
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    :root {
+        --heading-font-size: 28px;
+    }
+}
+/*aditya*/

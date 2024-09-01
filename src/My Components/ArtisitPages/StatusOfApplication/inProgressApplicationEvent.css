@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.progress_Application_wrapper{
+    overflow-x: hidden;
+}
+
+.progress_event_text{
+    font-family: Poppins;
+
+        font-size: 24px;
+        font-weight: 500;
+        
+
+}
+
+.inprogress_detail_container{
+    display: flex;
+   width: 65%;
+   justify-content: space-between;
+   /* background-color: orange; */
+}
+.progress_event_Detail_Container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Poppins;
+
+}
+
+.progress_Event_details{
+    /* background-color: red; */
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 32px; 
+    grid-column-gap:20px;
+    font-family: Poppins;
+
+    justify-items: center;
+}
+
+.single_inprogress_eventWrapper{
+
+    padding: 10px;
+    width: 840px;
+    height: fit-content;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+    border-radius: 10px;
+box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+padding-left: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+font-family: Poppins;
+}
+
+.single_progress_eventWrapper{
+    width: 571px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     
+    font-family: Poppins;
+
+}
+
+.inprogrss_left{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* background-color: blue; */
+}
+
+.inprogress_detail_btn_wrapper{
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    justify-content: space-between;
+
+}
+
+.inprogrss_right{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* background-color: red; */
+}
+
+.progress_text{
+    width: 120px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8B7;
+    color: #F1BC00;
+    border-radius: 10px;
+    font-family: Poppins;
+
+}
+
+.single_progress_heading{
+    color: #AD2F3B;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Poppins;
+
+}
+
+.single_progress_para{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.progress_button_wrapper{
+    width:calc(100% - 30px);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+
+.inprogress_btn_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+@media (max-width:950px) {
+    .inprogress_detail_btn_wrapper{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+    }
+
+    .single_inprogress_eventWrapper{
+        width: 95%;
+     }   
+    .inprogress_btn_wrapper{
+        gap: 20px;
+    }
+
+    .inprogress_detail_container{
+        width: 95%;
+    }
+
+
+}
+
+
+.single_inprogress_heading{
+    color: #AD2F3B;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Poppins;
+    width: 70%;
+    /* background-color: blue; */
+
+}
+
+
+@media (max-width:640px) {
+    .inprogress_text{
+    font-size: 14px;
+    }
+
+    .single_inprogress_eventWrapper{
+        padding-left: 10px;
+    }
+
+    .single_inprogress_heading{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:420px) {
+    .inprogress_text{
+        font-size: 12px;
+    }
+
+    .single_inprogress_heading{
+        font-size: 16px;
+        width: 70%;
+    }
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.navbar-light {
+  padding: 0px !important;
+}
+
+@media (min-width: 991px) {
+  .link-padding {
+    padding-right: 10vh !important ;
+    padding-left: 5vh !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .link-padding {
+    padding-top: 2vh !important;
+    padding-bottom: 2vh !important;
+  }
+  .language {
+    margin-right: 0px !important;
+  }
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.Accountpopup {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}

@@ -1,0 +1,602 @@
+.patron_event_appli_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
+.event_image_section{
+    position: relative;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+ margin-top: 50px;
+}
+
+.event_bgImg{
+    width: 95%;
+}
+
+.event_appli_bgFilter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.event_application_text{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15%;
+    /* background-color: blue; */
+    width: 750px;
+}
+
+.event_currentBtn{
+    background-color: #AD2F3B;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 140px;
+    height: 50px;
+}
+
+.event_btn{
+    width: 140px;
+    height: 50px;
+    border: 1px solid #AD2F3B;
+    color: #AD2F3B;
+padding: 10px;
+background-color: transparent;
+border-radius: 15px;   
+font-weight: 500;
+font-family: Poppins;
+font-size: 18px; 
+}
+
+/* for job description section */
+
+.patron_job_description_wrapper{
+    display: flex;
+    flex-direction: row;
+   width: 95%;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+
+.job_description_container{
+    width: 80%;
+    /* background-color: aqua; */
+}
+.job_description_text{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: #18191C;
+
+}
+
+.job_description_para{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 17px;
+    color: #5E6670;
+    line-height: 32px;
+}
+
+.job_des_allList{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.job_des_list{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5E6670;
+}
+
+.desc_buttons{
+    display: flex;
+    flex-direction: row;
+    /* gap: 80px; */
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.job_overview_container{
+    width: 283px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.job_overview_text{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_job_overview{
+    display: flex;
+    flex-direction: column;
+  margin: 0 auto;
+  width: 70%;
+  gap: 12px;
+
+}
+
+.single_overview_img{
+    width: 32px ;
+    height: 32px;
+    text-align: center;
+    margin: 0 auto;
+}
+.single_job_category{
+    margin: 0 auto;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.single_job_title{
+    margin: 0 auto;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.patron_event_detail_Section{
+    display: flex;
+    flex-direction: row;
+    /* gap: 90px; */
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    height: 394px;
+    border-radius: 15px;
+    border: 1px solid #AD2F3B;
+ justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 34px;
+    
+}
+
+
+.event_card_wrapper{
+ width: 630px;
+ box-shadow: -1px 1px 10px -4px rgba(0, 0, 0, 0.75);
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.card_left_container{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+    height: 100%;
+    padding-left: 10px;
+}
+
+.card_left_ekalakaar{
+    width: 60px;
+    height: 60px;
+
+}
+
+.card_user_personal_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.single_personalDetail{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.personal_Detail_img{
+    
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #AD2F3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal_Detail_img img{
+    width: 11px;
+    height: 11px;
+}
+
+.personal_detail_title{
+    width: 70%;
+    font-size: 12px;
+    font-family: Poppins;
+}
+
+.user_socical_details_container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.single_socail_detail{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.socail_img{
+    width: 12px;
+    height: 12px;
+}
+
+.social_title{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 8px;
+    color: black;
+}
+.card_strip{
+    position: absolute;
+    left: 18%;
+}
+
+.card_right_part{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+ padding-right: 30px;
+ align-items: center;
+}
+
+.card_right_userName{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.card_right_user_profession{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    align-items: center;
+}
+
+.all_job_overview{
+    display: flex;
+    flex-direction: column;
+   gap: 20px; 
+   width: 100%;
+   align-items: center;
+}
+
+
+.view_Profile_btn{
+    background-color: #AD2F3B;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    width: 40%;
+    height: 50px;
+    border-radius: 17px;
+    padding:11px;
+    margin: 0 auto;
+}
+.event_detail_wrapper{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.event_appli_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.single_detail_title{
+    color: black;
+    opacity: 70%;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.single_detail_ans{
+    color: black;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.chat_artist_btn{
+    background-color: transparent;
+    color: #AD2F3B;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    border:2px solid #AD2F3B;
+    width: 40%;
+    height: 50px;
+    border-radius: 17px;
+    padding:11px;
+    margin: 0 auto;
+}
+
+@media (max-width:1300px) {
+    .single_detail_title{
+        font-size: 14px;
+    }
+    .single_detail_ans{
+        font-size: 14px;
+    }
+    .view_Profile_btn{
+        font-size: 16px;
+    }
+
+    .chat_artist_btn{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1290px) {
+    .event_application_text{
+        width: 600px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1050px) {
+    .patron_event_detail_Section{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 30px;
+        padding-left: 0px;
+    }
+.card_strip{
+     left: 40%;
+}
+
+.event_detail_wrapper{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+}
+
+@media (max-width:1000px) {
+    .event_application_text{
+        font-size: 40px;
+        width: 500px;
+    }
+}
+
+@media (max-width:950px) {
+    .card_strip{
+        left: 35%;
+    }
+}
+
+@media (max-width:900px) {
+    
+    .patron_job_description_wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .job_overview_container{
+         width: 100%;
+         margin-bottom: 10px;
+         display: flex;
+
+    }
+    .all_job_overview{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* background-color: blanchedalmond; */
+        justify-content: space-between;
+    }
+
+    .single_job_overview{
+        text-align: center;
+    }
+    
+    .job_overview_text{ 
+        text-align: left;
+        width: 100%;
+        /* background-color: aliceblue; */
+    }
+
+    .single_job_category{
+        font-size: 12px;
+    }
+
+    .single_job_title{
+        font-size: 12px;
+    }
+
+    .job_description_container{
+        width: 95%;
+    }
+
+    .job_description_container{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width:750px) {
+    .event_application_text{
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .event_card_wrapper{
+         width: 95%;
+    }
+    .card_strip{
+        left: 28%;
+    }
+
+    .card_right_userName{
+        font-size: 14px;
+    }
+    .card_right_user_profession{
+        font-size: 14px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width:570px) {
+    .card_strip{
+        display: none;
+    }
+}
+
+
+@media (max-width:550px) {
+    .event_application_text{
+        font-size:18px;
+        width: 250px;
+    }
+
+    .desc_buttons{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:500px) {
+    .desc_buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+@media (max-width:450px) {
+    .event_card_wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .card_right_part{
+        margin-top: 10px;
+    }
+    .card_right_user_profession{
+        margin-top: 0px;
+        
+    }
+    .card_left_ekalakaar{
+        display: none;
+        
+    }
+    .card_left_container{
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+    .card_user_personal_details{
+        margin: 0 auto;
+        /* background-color: beige; */
+        /* width: 100%; */
+    }
+}
+
+@media (max-width:400px) {
+    .event_application_text{
+        font-size: 12px;
+        width: 150px;
+        top: 20px;
+
+    }
+    .view_Profile_btn{
+        width: 70%;
+    }
+
+    .chat_artist_btn{
+        width: 70%;
+    }
+
+    .event_image_section{
+        margin-left: 5px;
+    }
+
+   
+}
+
+@media (max-width:350px) {
+    .all_job_overview{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .job_description_para{
+        font-size: 16px;
+    }
+
+    .job_des_list{
+        font-size: 16px;
+    }
+}
+
+
+
+.appliedOn_container{
+ 
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+ color: #AD2F3B;
+ font-weight: 500;
+ font-family: Poppins;
+ font-size: 12px;
+ height: 56px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+
+}

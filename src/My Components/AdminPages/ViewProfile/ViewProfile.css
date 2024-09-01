@@ -1,0 +1,100 @@
+.admin-page-root-container-vp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.section-division-admin-viewProfile{
+    max-width: 1330px;
+    flex-grow: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    gap: 40px;
+    padding: var(--pd-lg);
+}
+.admin-about-me-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.admin-about-me-container h2{
+    font-size: var(--fs-35);
+    font-weight: var(--fw-600);
+    color:var(--primary-color);
+    
+}
+.admin-about-me-container p{
+    font-size: var(--fs-21);
+    font-weight: 400;
+}
+.display-data-table{
+    max-width: 600px;
+    width: 100%;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    border: var(--box-border);
+    border-radius: var(--br-sm);
+    padding: 20px;
+}
+.display-data-table h6{
+    font-size: var(--fs-21);
+    font-weight: var(--fw-600);
+    color:var(--primary-color);
+    margin: 0px;
+}
+.display-data-table p{
+    font-size: var(--fs-21);
+    font-weight: var(--fw-600);
+    color: var(--grey-color);
+}
+.display-data-table h6{
+    margin: 0;
+}
+.admin-vp-button-bottom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.admin-vp-btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: var(--fs-21);
+    font-weight: var(--fw-600);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.admin-vp-btn:first-child{
+    background-color: var(--white-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.caraussel-head{
+    margin-left: 5%;
+    font-size: var(--fs-35);
+    font-weight: var(--fw-600);
+    color:var(--primary-color);
+    margin-top: 80px;
+}
+
+@media (max-width:500px) {
+    :root{
+        --fs-35:25px;
+        --fs-21:17px;
+        --pd-lg:15px;
+    }
+    .display-data-table{
+        column-gap: 20px;
+        padding: 15px;
+    }
+    .admin-vp-btn{
+        padding: 8px 13px;
+        font-size: 15px;
+    }
+}

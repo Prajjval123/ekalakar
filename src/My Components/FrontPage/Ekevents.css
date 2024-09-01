@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500&display=swap');
+
+:root{
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 50px;
+  --font-size-base-9: 16.9px;
+  --font-size-mini-5: 14.5px;
+  --font-size-lgi: 19px;
+  --font-size-mini: 15px;
+  --font-para-16 : 16px;
+  --font-para-18 : 18px;
+
+}
+
+
+.Ekevents_Page {
+  background: #fbdfaf;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ekevents_heading1 {
+  width: 100%;
+  padding: 1vh 0px;
+}
+
+.Ekevents_Page h1 {
+  color: #000;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: var(--font-size-21xl);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.Ekevents_events {
+  margin-top: 5vh;
+  margin-left: 4vh;
+  width: 90vw;
+  height: auto;
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.Ekevents_events span {
+  color: #ea4335;
+  font-size: var(--font-para-18);
+}
+
+.Ekevents_events li {
+  font-size: var(--font-para-18);
+}
+
+
+@media (max-width:470px) {
+ 
+.Ekevents_Page h1 {
+  font-size: 35px ;
+}
+}
+
+

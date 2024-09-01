@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.MyProductsandCourses_Page {
+  min-height: 50vh;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.MyProductsandCourses_Top {
+  width: 1340px;
+  height: 300px;
+  border-radius: 20px;
+  background: url("../../../../public/assets/Products/Rectangle22125.png");
+  background-repeat: no-repeat;
+}
+
+.MyProductsandCourses_Content {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyProductsandCourses_Content p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.MyProductsandCourses_MainContent {
+  width: 1340px;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.MyProductsandCourses_MainContent_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 10px 0px;
+}
+.disabled .carousel-control-next-icon,
+.disabled .carousel-control-prev-icon {
+  display: none;
+}
+
+.MyProductsandCourses_MainContent_one .carousel-control-next-icon,
+.MyProductsandCourses_MainContent_one .carousel-control-prev-icon,
+.MyProductsandCourses_ProductPopup_MainContent .carousel-control-next-icon,
+.MyProductsandCourses_ProductPopup_MainContent .carousel-control-prev-icon {
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 25px;
+  font-weight: bolder !important;
+  background-color: black;
+  border-radius: 200px;
+}
+
+.MyProductsandCourses_MainContent_one .carousel-indicators button,
+.MyProductsandCourses_ProductPopup_MainContent .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+.MyProductsandCourses_MainContent_one img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.MyProductsandCourses_MainContent_one button {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #ad2f3b;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin: 20px 0px;
+}
+
+.MyProductsandCourses_Page h1 {
+  color: #ad2f3b;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.MyProductsandCourses_ProductPopup {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.MyProductsandCourses_ProductPopup_MainContent {
+  background: #fff;
+  width: 799px;
+  max-height: 100%;
+  border-radius: 30px;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.MyProductsandCourses_ProductPopup img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.MyProductsandCourses_ProductPopup button {
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  background: none;
+  text-align: right;
+  width: 100%;
+  padding: 10px;
+}
+
+.MyProductsandCourses_ProductPopup_MainContent p {
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px 0px;
+}
+
+.MyProductsandCourses_ProductPopup_MainContent .editbtn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 240px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #ad2f3b;
+}
+
+@media (max-width: 1030px) {
+  .MyProductsandCourses_Top,
+  .MyProductsandCourses_MainContent {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .MyProductsandCourses_Content p {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 500px) {
+  .MyProductsandCourses_Content p {
+    font-size: 36px;
+    text-align: center;
+  }
+  .MyProductsandCourses_Top {
+    height: 200px;
+  }
+  .MyProductsandCourses_MainContent {
+    justify-content: center;
+  }
+  .MyProductsandCourses_ProductPopup_MainContent p,
+  .MyProductsandCourses_ProductPopup_MainContent .editbtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .MyProductsandCourses_ProductPopup img{
+    width: 250px;
+    height: 200px;
+  }
+}
+

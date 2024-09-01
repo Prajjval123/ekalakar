@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* .PatronPortfolio_Page {
+  min-height: 50vh;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.PatronPortfolio_ProfileCard {
+  width: 949px;
+  height: 480px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PatronPortfolio_ProfileCard_left {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.PatronPortfolio_ProfileCard_left img {
+  width: 189px;
+  height: 189px;
+  margin: 10px 0px;
+  border-radius: 189px;
+}
+
+.PatronPortfolio_ProfileCard_left h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.PatronPortfolio_ProfileCard_left h5 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PatronPortfolio_ProfileCard_strip {
+  width: 72px;
+  height: 100%;
+  background: #ad2f3b;
+}
+
+.PatronPortfolio_ProfileCard_right {
+  width: 50%;
+  padding: 20px;
+  height: 100%;
+}
+
+.PatronPortfolio_ProfileCard_right img {
+  width: 97px;
+  height: 97px;
+  float: right;
+}
+
+.PatronPortfolio_ProfileCard_right_Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+
+.PatronPortfolio_PatronName {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.PatronPortfolio_AboutCompany {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.PatronPortfolio_AboutCompany h2 {
+  color: #ad2f3b;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  line-height: normal;
+}
+
+.PatronPortfolio_AboutCompany p {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.PatronPortfolio_AboutCompany button {
+  display: flex;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 15px;
+  background: #ad2f3b;
+  border: none;
+}
+
+@media (max-width:980px) {
+  .PatronPortfolio_ProfileCard{
+    width: 93%;
+  }
+}
+
+@media (max-width:800px){
+    .PatronPortfolio_ProfileCard {
+        width: 720px;
+        height: 380px;
+    }
+    .PatronPortfolio_ProfileCard_left h3{
+        font-size: 24px;
+    }
+    .PatronPortfolio_ProfileCard_left h5{
+        font-size: 20px;
+    }
+    .PatronPortfolio_ProfileCard_strip{
+        width: 60px;
+    }
+    .PatronPortfolio_PatronName{
+        font-size:44px ;
+    }
+    .PatronPortfolio_AboutCompany h2{
+        font-size: 34px;
+    }
+    .PatronPortfolio_AboutCompany p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:740px) {
+  .PatronPortfolio_ProfileCard{
+    width: 95%;
+  }
+  .PatronPortfolio_ProfileCard_strip{
+    display: none;
+}
+
+.PatronPortfolio_ProfileCard_right{
+  width: 100%;
+}
+}
+
+
+
+@media (max-width:500px){
+    .PatronPortfolio_ProfileCard {
+        width:90%;
+    }
+    .PatronPortfolio_ProfileCard_left img{
+        width: 89px;
+        height: 89px;
+    }
+    .PatronPortfolio_ProfileCard_left h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .PatronPortfolio_ProfileCard_right_Main .AboutPartner_ProfileCard_bottomelement_details p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .PatronPortfolio_ProfileCard_left h5{
+        font-size: 14px;
+    }
+
+    .PatronPortfolio_ProfileCard_right{
+        width: 60%;
+    }
+    .PatronPortfolio_AboutCompany h2{
+        font-size: 28px;
+    }
+    .PatronPortfolio_AboutCompany p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:450px) {
+
+  .ek_logo_patron_portfolio{
+    display: none;
+  }
+  .PatronPortfolio_ProfileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: fit-content; */
+  }
+
+  .PatronPortfolio_ProfileCard_right{
+    width: 100%;
+   }
+
+   .PatronPortfolio_ProfileCard_left{
+    width: 100%;
+   }
+}

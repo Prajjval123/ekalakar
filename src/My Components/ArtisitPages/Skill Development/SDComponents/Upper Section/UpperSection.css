@@ -1,0 +1,45 @@
+#SD-parent{
+    position: relative;
+    margin: 0px 3vw;
+}
+
+#complete-upper-section {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url(../SDImages/upper-section-background-img.png);
+    filter: brightness(0.3);
+    aspect-ratio: 670 / 417;
+}
+#complete-upper-section-text-courses{
+    width: 100%;
+    aspect-ratio: 670 / 417;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#upper-section-text, #upper-section-popular-courses{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+/* responsive */
+
+@media screen and (max-width: 775px) {
+}
+@media screen and (max-width: 430px) {
+    #complete-upper-section, #complete-upper-section-text-courses {
+        aspect-ratio: 580 / 417;
+    }
+}

@@ -1,0 +1,56 @@
+/* ! EveryCourse.css */
+
+.every-tranding-course {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    max-width: 250px;
+}
+
+.course-name {
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.course-posted-by {
+    font-family: var(--main-font-family);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.course-img {
+    height: 20vw;
+    max-height: 250px;
+    aspect-ratio: 1/1;
+}
+
+/* responsive */
+@media screen and (max-width: 1000px) {
+    .course-name {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .course-posted-by {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .course-name {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .course-posted-by {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,17 @@
+.addvp{
+    border: 1px solid #00000066;
+    width: 90%;
+    align-self: center;
+    padding: 20px;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+.admin-vp-caraussel{
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+
+.admin-vp-caraussel img{
+    width: 100%;
+}

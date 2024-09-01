@@ -1,0 +1,242 @@
+
+.circleprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ad2f3b;
+   margin-top: 20px;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+  }
+  .opportunity-ManageProfile {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 838px;
+    height: 1470px;
+    flex-shrink: 0;
+    padding: auto 10px;
+    background: rgba(255, 240, 241, 0.7);
+    border-radius: 31px;
+  }
+  
+  .opportunity-heading {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ad2f3b;
+  }
+  
+  .sub-heading {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .subdiv {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    top: 538px;
+    left: 618px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  
+  .ManageProfile-card {
+    display: flex;
+    margin: 20px;
+    border-top: 2px solid gray;
+  }
+  .top-division {
+    width: 80%;
+    margin: auto;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color: #ad2f3b;
+  }
+  .profileheading{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 150px;
+    justify-content: center;
+  }
+  .profileh1{
+    margin: 0px !important;
+  }
+  .profileh2{
+    color: #000000;
+    font-size: 22px;
+    margin: 0px !important;
+  }
+  .left-division {
+    flex: 1 1;
+    padding: 20px;
+    border-right: 1px solid black;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #ad2f3b;
+  }
+  .paragraph-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: #818181;
+  }
+  
+  .right-division {
+    flex: 1;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    color: #ad2f3b;
+  }
+  
+  .profilesection-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .profileparagraph-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #818181;
+font-weight: 500;
+  }
+  
+  .list-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .list-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .list-item {
+    margin-left: 10px;
+    list-style: disc;
+    color: #818181;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .ManageProfile-footer {
+    width: 838px;
+    height: 73px;
+    flex-shrink: 0;
+    background: #ad2f3b;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .ManageProfile-footer h3{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .socialicon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  .icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon-text{
+    font-size: 17px;
+    color:  #000000;
+  }
+  .ManageProfile-middle{
+    display: flex;
+
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+  }
+  .ManageProfileicons{
+  font-size: 23px;
+  padding: 8px;
+  color: white;
+  }
+  
+.profileicons{
+    font-size: 23px;
+    padding: 8px;
+    color: white;
+    }
+    .icons{
+      background-color: #AD2F3B;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+    @media screen and (max-width: 768px) {
+       .opportunity-ManageProfile{
+        overflow: scroll;
+       }
+      }

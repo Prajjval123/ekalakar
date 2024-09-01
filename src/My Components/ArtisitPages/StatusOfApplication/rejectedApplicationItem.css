@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.rejected_Application_wrapper{
+    min-height: 100%;    
+    overflow-x: hidden;
+}
+
+.rejected_event_text{
+    font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+}
+.rejected_event_Detail_Container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Poppins;
+
+}
+
+.rejected_Event_details{
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 32px; 
+    grid-column-gap:20px;
+    font-family: Poppins;
+    justify-items: center;
+}
+
+
+.single_rejected_eventWrapper{
+    width: 571px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     
+    font-family: Poppins;
+
+}
+
+.rejected_text{
+    width: 120px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFB7B7;
+    color:#FF0000;
+    border-radius: 10px;
+    font-family: Poppins;
+
+}
+
+.single_rejected_heading{
+    color: #AD2F3B;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Poppins;
+
+}
+
+.single_rejected_para{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.rejected_button_wrapper{
+    width:calc(100% - 30px);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+@media (max-width:1280px) {
+    .rejected_Event_details{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:600px) {
+    .single_rejected_eventWrapper{
+         width: 95%;
+    }
+    .single_rejected_heading{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .single_rejected_heading{
+        font-size: 16px;
+    }
+    .rejected_event_text{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:410px) {
+ .single_rejected_heading{
+    font-size: 14px;
+ }
+
+ .single_rejected_eventWrapper{
+    padding-left: 10px;
+ }
+ .single_rejected_para{
+    font-size: 14px;
+ }
+}
+
+@media (max-width:440px) {
+    .single_rejected_eventWrapper{
+        height: fit-content;
+    }
+    .rejected_button_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

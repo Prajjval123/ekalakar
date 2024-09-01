@@ -1,0 +1,90 @@
+/* Base styles */
+
+  /* Container for consistent layout */
+  .event-details-container {
+   max-width: 1300px;
+    margin: 5px auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  .event-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+   text-align: center;
+   font-weight: 600;
+   text-decoration: underline;
+  }
+  
+  /* Information blocks */
+  .event-info,
+  .event-description,
+  .event-feedback {
+    margin-bottom: 20px;
+  }
+  
+  .event-info p,
+  .event-description p,
+  .event-feedback p {
+    margin-bottom: 5px;
+  }
+  
+  /* Media layout */
+  .event-media {
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap onto multiple lines */
+  }
+  
+  .event-images,
+  .event-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between images/videos */
+    border-radius: 10px;
+  }
+  
+ 
+
+  .event-images img {
+    width: calc(33.33% - 10px); /* Set a dynamic width for images with spacing */
+    height: auto;
+    margin-bottom: 10px; /* Add bottom margin for spacing between rows */
+    margin-right: 10px; /* Add right margin for spacing between images */
+  }
+  
+  .event-images img:nth-child(3n) {
+    margin-right: 0; /* Remove right margin for the last image in each row */
+  }
+  
+  .event-videos video {
+    width: calc(33.33% - 10px); /* Set a dynamic width for videos with spacing */
+    height: auto;
+    margin-bottom: 10px; /* Add bottom margin for spacing between rows */
+    margin-right: 10px; /* Add right margin for spacing between videos */
+  }
+  
+  .event-videos video:nth-child(3n) {
+    margin-right: 0; /* Remove right margin for the last video in each row */
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .event-images img,
+    .event-videos video {
+      width: 100%; /* Display as a single column on smaller screens */
+      margin-right: 0; /* Remove right margin on smaller screens */
+    }
+  }
+  
+  /* Larger screens */
+  @media (min-width: 769px) {
+    .event-images img {
+      width: calc(33.33% - 10px); /* Set a fixed width for images on larger screens */
+      height: 320px; /* Set a fixed height for images on larger screens */
+    }
+  
+    .event-videos video {
+      width: calc(33.33% - 10px); /* Set a fixed width for videos on larger screens */
+      height: 320px; /* Set a fixed height for videos on larger screens */
+    }
+  }

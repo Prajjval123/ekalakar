@@ -1,0 +1,107 @@
+.popular-course-image-type {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.popular-course-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.popular-course-type {
+    font-family: var(--main-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(255, 255, 255, 0.58);
+    position: absolute;
+    bottom: 0px;
+
+}
+
+/* responsive */
+
+@media screen and (max-width: 1150px) {
+    .popular-course-image {
+        height: 180px;
+        width: 180px;
+    }
+    .popular-course-type {
+        width: 180px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .popular-course-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 6px;
+    }
+    .popular-course-type {
+        width: 150px;
+        border-radius: 0px 0px 6px 6px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .popular-course-type {
+        font-size: 15px;
+        height: 27px;
+    }
+}
+@media screen and (max-width: 775px) {
+    .popular-course-image {
+        height: 120px;
+        width: 120px;
+        border-radius: 5px;
+    }
+    .popular-course-type {
+        font-size: 13px;
+        height: 24px;
+        width: 120px;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+@media screen and (max-width: 625px) {
+    .popular-course-image {
+        height: 80px;
+        width: 80px;
+    }
+    .popular-course-type {
+        font-size: 10px;
+        height: 20px;
+        width: 80px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .popular-course-image {
+        height: 60px;
+        width: 60px;
+    }
+    .popular-course-type {
+        font-size: 7px;
+        height: 13px;
+        width: 60px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .popular-course-image {
+        height: 55px;
+        width: 55px;
+    }
+    .popular-course-type {
+        font-size: 7px;
+        height: 13px;
+        width: 55px;
+    }
+}

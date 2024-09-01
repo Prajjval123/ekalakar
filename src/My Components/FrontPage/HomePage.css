@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.HomePage {
+  background-image: url('Images/HomeBG1.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: 100% 100%; 
+  width: 100%;
+}
+
+.HomePage .carousel-indicators button {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100%;
+  display: none;
+}
+
+.HomePage_Items {
+  margin-top: 0vh;
+}
+
+.HomePage_image_container button {
+  position: absolute;
+  border: 0px solid black;
+  border-radius: 15px;
+  height: 9vh;
+  width: 12vw;
+  background: #ad2f3b;
+  font-size: 18px;
+  font-weight: 600;
+  top: 85%;
+  left: 56%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.HomePage_image_container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.HomePage_image_container img {
+  height: 85vh;
+  width: 85vw;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.HomePage .carousel-control-prev-icon,
+.HomePage .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  font-weight: 1300 !important;
+}
+.HomePage .carousel-control-prev {
+  width: 5vw;
+}
+.HomePage .carousel-control-next {
+  width: 5vw;
+}
+
+@media (max-width: 750px) {
+  .HomePage{
+    background-size:  100% 100%; 
+    background-image: url("Images/smallsreenbg.png");
+  }
+  .HomePage_image_container img {
+    height: 30vh;
+    width: 100%;
+    margin-left: 5vh;
+  }
+  video {
+    height: 100%;
+    width: 100%;
+  }
+  .HomePage {
+    min-height: auto;
+  }
+  .HomePage_image_container button {
+    border: 0px solid black;
+    border-radius: 5px;
+    height: 3vh;
+    width: 11vw;
+    background: #ad2f3b;
+    font-size: 8px;
+    font-weight: 400;
+    color: white;
+  }
+  a {
+    font-size: 16px !important;
+  }
+}

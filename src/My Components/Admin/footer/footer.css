@@ -1,0 +1,152 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0px; */
+    align-items: center;
+    background-color: #AD2F3B;
+    position: relative;
+}
+
+#ekalakaar-and-texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    padding: 2vw;
+
+    color: #FFF;
+    font-weight: 500;
+    font-family: var(--main-font-family);
+}
+
+#ekalakaar-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#ek-logo {
+    width: 200px;
+    aspect-ratio: 4/3;
+}
+
+#ekalakaar-text {
+    display: flex;
+    text-align: center;
+    font-family: Sansita Swashed;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+#eka {
+    color: #35940A;
+
+}
+
+#lak {
+    color: #FF6800;
+}
+
+#aar {
+    color: #FFF;
+}
+
+#copyright {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 3.71px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+#footer-texts {
+    display: flex;
+    gap: 5vw;
+}
+
+#footer-texts-1,
+#footer-texts-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    /* text-align: justify; */
+    font-size: 20px;
+}
+
+#social-media {
+    min-width: 90px;
+    background: #E6B0B3;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.every-social-media-icon {
+    height: 50px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    #ekalakaar-and-texts {
+        justify-content: space-around;
+    }
+
+    .every-footer-text {
+        font-size: 18px;
+    }
+
+    #footer-circle-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #copyright {
+        font-size: 12px;
+        letter-spacing: 3px;
+        left: 20px;
+    }
+
+    #ekalakaar-section {
+        display: none;
+    }
+
+    #footer-texts {
+        justify-content: space-around;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #footer{
+        flex-direction: column;
+    }
+    #ekalakaar-and-texts{
+        height: 350px;
+    }
+    #footer-texts{
+        width: 100%;
+    }
+    #social-media{
+        flex-direction: row;
+        height: 80px;
+        width: 100%;
+    }
+    #copyright{
+        display: none;
+    }
+}
