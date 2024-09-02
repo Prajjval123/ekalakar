@@ -553,17 +553,7 @@ export function HomePage() {
               </div>
 
               <div className="navbar-nav ms-auto" style={back}>
-                <button
-                  className="nav-item nav-link language"
-                  style={{
-                    color: "black",
-                    fontSize: "25px",
-                    marginRight: "20px",
-                  }}
-                >
-                  <FontAwesomeIcon icon={faLanguage} />
-                </button>
-                {!token && (
+                {/* {!token && (
                   <Link
                     to="/Login"
                     className="nav-item nav-link"
@@ -571,7 +561,7 @@ export function HomePage() {
                   >
                     Login/Signup
                   </Link>
-                )}
+                )} */}
                 {accessToken !== null && role === "Artist" && (
                   <Link
                     to="/artist_profile"

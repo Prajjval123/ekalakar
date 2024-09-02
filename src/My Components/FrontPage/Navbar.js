@@ -76,8 +76,6 @@ export function Navbar_frontpage() {
 
                         </Nav>
                     </div>
-
-                  
                 </Navbar.Collapse>
                 {/* </Container> */}
             </div>

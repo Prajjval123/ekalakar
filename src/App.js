@@ -1,12 +1,10 @@
-import React from 'react'
-import { HomePage } from './My Components/FrontPage/HomePage.js'
+import RouterPage from "./My Components/FrontPage/RouterPage";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <HomePage />
+      <RouterPage />
     </div>
-  )
+  );
 }
-
-export default App
+export default App;
