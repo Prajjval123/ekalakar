@@ -43,7 +43,7 @@ import "./Ekworld.css";
 /*EKperformances*/
 import "./Ekperformances.css";
 /*our Patrons*/
-import "./OurPatrons.css"
+import "./OurPatrons.css";
 /*OurArtists*/
 import "./OurArtists.css";
 /*OurPartners*/
@@ -68,7 +68,6 @@ import Joinek_image from "./Images/FrameComponent/pic.png";
 import "./JoinUs.css";
 /*EkPhotos*/
 import { useSelector } from "react-redux";
-
 
 const HomePage_images = [
   {
@@ -229,59 +228,49 @@ const OurArtists_images = [
   },
 ];
 
-
-
 const OurPatrons_images = [
   {
-      src: "assets/OurPatrons/GIZ.jpg",
-      // caption: "Chitrasen",
-      subcaption: "GIZ",
+    src: "assets/OurPatrons/GIZ.jpg",
+    // caption: "Chitrasen",
+    subcaption: "GIZ",
   },
   {
-      src: "assets/OurPatrons/Goregaon.jpg",
-      // caption: "Subhashri",
-      subcaption: "Goregaon",
-    
+    src: "assets/OurPatrons/Goregaon.jpg",
+    // caption: "Subhashri",
+    subcaption: "Goregaon",
   },
   {
-      src: "assets/OurPatrons/Mayfair.jpg",
-      // caption: "Padmini ",
-      subcaption: "MayFair",
-      
+    src: "assets/OurPatrons/Mayfair.jpg",
+    // caption: "Padmini ",
+    subcaption: "MayFair",
   },
   {
-      src: "assets/OurPatrons/Pantiss.jpg",
-      // caption: "Sadasiva",
-      subcaption: "Pantiss",
-      
+    src: "assets/OurPatrons/Pantiss.jpg",
+    // caption: "Sadasiva",
+    subcaption: "Pantiss",
   },
   {
-      src: "assets/OurPatrons/Bhartiya.jpg",
-      // caption: "Ashok",
-      subcaption: "Bhartiya",
-      
+    src: "assets/OurPatrons/Bhartiya.jpg",
+    // caption: "Ashok",
+    subcaption: "Bhartiya",
   },
   {
-      src: "assets/OurPatrons/Tatapower.jpg",
-      // caption: "Chitta",
-      subcaption: "TataPower",
-      
+    src: "assets/OurPatrons/Tatapower.jpg",
+    // caption: "Chitta",
+    subcaption: "TataPower",
   },
   {
-      src: "assets/OurPatrons/Tiss.jpg",
-      // caption: "TISS",
-      subcaption: "TISS",
-      
+    src: "assets/OurPatrons/Tiss.jpg",
+    // caption: "TISS",
+    subcaption: "TISS",
   },
   {
-      src: "assets/OurPatrons/Unicef.jpg",
-      // caption: "Hardik",
-      subcaption: "Unicef",
-      
-  }
+    src: "assets/OurPatrons/Unicef.jpg",
+    // caption: "Hardik",
+    subcaption: "Unicef",
+  },
 ];
 const OurPartners_images = [
- 
   {
     src: "assets/OurPartners/OurPartners_Kalakruti.jpeg",
     caption:
@@ -294,7 +283,7 @@ const OurPartners_images = [
     caption:
       "AAMAD Dance Centre (NGO), founded by renowned Kathak exponent & Choreographer Rani Khanum in 1996 and considered  one of the premier performing arts organizations in India, its main mission is to enhance integration and diversity in the arts, uniting all abilities. It has been recognised by the Dept. of Culture & Sangeet Natak Akademi, empanelled under ICCR - (Ministry of External Affairs) & worked in cooperation with Kathak Kendra  New Delhi. ",
   },
-  
+
   {
     src: "assets/OurPartners/OurPartners_Gokul_Gurukul.png",
     //caption: "Jayanti Mala has given her best performance in every part of the world, in India as well as abroad for which she will be remembered forever about her Art in the Audience. mala is very versatile in Abhinaya & laikari, the clearity of her hand mudras and movements are just excellent.",
@@ -322,12 +311,12 @@ function ReadMore({ children }) {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
- 
-  const navigate = useNavigate()
+
+  const navigate = useNavigate();
   const role = localStorage.getItem("role");
 
-  if(role === "Admin"){
-     navigate("/AdminDashboard")
+  if (role === "Admin") {
+    navigate("/AdminDashboard");
   }
   const handleReadMore = () => {
     setIsExpanded(true);
@@ -751,10 +740,11 @@ export function HomePage() {
           <div className={AboutUstyles.frameGroup}>
             <div className={AboutUstyles.ekalakaarekIsBuildingTheParent}>
               <div className={AboutUstyles.ekalakaarekIsBuilding}>
-                eKalakaar (eK) is building the first integrated technology
-                enabled platform that will connect opportunity seekers-Indian
-                traditional performing artists, including classical and folk
-                singers, dancers, musicians, and theatre artists to performance
+                eKalakaar (eK) is a Unit of InspirArt Global Pvt. Ltd. eKalakaar
+                is building the first integrated technology enabled platform
+                that will connect opportunity seekers-Indian traditional
+                performing artists, including classical and folk singers,
+                dancers, musicians, and theatre artists to performance
                 opportunities with talent seekers- Patrons such as high-end
                 hospitality, corporates and development sector organizations.
                 <ReadMore id="AboutUS_text_Readmore">
@@ -1329,7 +1319,7 @@ export function HomePage() {
       <div div className="Ekperformance_page">
         <h1 className="Ekperformance_heading1">eK PERFORMANCES</h1>
         <Carousel className="Ekperformance_Carousel">
-        <Carousel.Item>
+          <Carousel.Item>
             <img
               className="performance_image"
               src={"assets/Ekperformances/EK-performance-3.jpg"}
@@ -1455,9 +1445,6 @@ export function HomePage() {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-          
-         
-         
         </Carousel>
       </div>
       {/*our patrons */}
@@ -1495,7 +1482,7 @@ export function HomePage() {
           ))}
         </Carousel>
       </div>
-     
+
       {/*OurArtists*/}
 
       <div div className="OurArtists_page">
@@ -1598,10 +1585,7 @@ export function HomePage() {
               <h3>
                 <span style={{ display: "inline-block" }}>
                   Photos{" "}
-                  <FontAwesomeIcon
-                    icon={faCamera}
-                    style={{ color: "#000" }}
-                  />
+                  <FontAwesomeIcon icon={faCamera} style={{ color: "#000" }} />
                 </span>
               </h3>
             </Link>
@@ -1617,10 +1601,7 @@ export function HomePage() {
               <h3>
                 <span style={{ display: "inline-block" }}>
                   Videos{" "}
-                  <FontAwesomeIcon
-                    icon={faVideo}
-                    style={{ color: "#000" }}
-                  />
+                  <FontAwesomeIcon icon={faVideo} style={{ color: "#000" }} />
                 </span>
               </h3>
             </Link>
@@ -1636,10 +1617,7 @@ export function HomePage() {
               <h3>
                 <span style={{ display: "inline-block" }}>
                   Print{" "}
-                  <FontAwesomeIcon
-                    icon={faPrint}
-                    style={{ color: "#000" }}
-                  />
+                  <FontAwesomeIcon icon={faPrint} style={{ color: "#000" }} />
                 </span>
               </h3>
             </Link>
